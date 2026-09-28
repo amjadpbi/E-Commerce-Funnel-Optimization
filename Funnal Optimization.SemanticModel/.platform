@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Funnal Optimization"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "fe0c8c9f-b843-4b36-a344-f0998aab593b"
+  }
+}

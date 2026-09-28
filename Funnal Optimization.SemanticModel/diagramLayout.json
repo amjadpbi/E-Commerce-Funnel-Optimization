@@ -1,0 +1,100 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 179.75396626150422
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 410.83286325158133,
+            "y": 550.93304007382278
+          },
+          "nodeIndex": "cart_abandonment",
+          "nodeLineageTag": "3166f4b5-c661-4e47-87db-eebd2480cfbe",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 0,
+            "y": 143.06302028664064
+          },
+          "nodeIndex": "funnel_events",
+          "nodeLineageTag": "9da5aca2-7ec1-4e14-953e-3fe86d8999e7",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 4
+        },
+        {
+          "location": {
+            "x": 917.26368591336029,
+            "y": 183.5250284907666
+          },
+          "nodeIndex": "transactions",
+          "nodeLineageTag": "8382a8fb-04e8-43b3-8303-353b24110612",
+          "size": {
+            "height": 272,
+            "width": 234
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 433.8205604563185,
+            "y": 268.02245281127119
+          },
+          "nodeIndex": "sessions",
+          "nodeLineageTag": "42e424c3-2e33-4e28-858d-fc5975fe0b65",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 455.32055497105722,
+            "y": 0
+          },
+          "nodeIndex": "Calendar",
+          "nodeLineageTag": "c32e2cfd-beb6-4bf3-95f0-eba75e137e6a",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1201.2636859133604,
+            "y": 275.46652003691139
+          },
+          "nodeIndex": "_Measures",
+          "nodeLineageTag": "68fddc0c-ed0e-43cd-8b31-7f6181821823",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 79.553182037699841,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}

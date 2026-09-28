@@ -1,0 +1,800 @@
+table _Measures
+	lineageTag: 68fddc0c-ed0e-43cd-8b31-7f6181821823
+
+	measure 'Total Sessions' = COUNTROWS(Sessions)
+		formatString: 0
+		displayFolder: Conversion Metrics
+		lineageTag: 58d589b5-1526-49db-8ee0-ecc4d74f1b58
+
+	measure 'Total Purchases' = COUNTROWS(Transactions)
+		formatString: 0
+		displayFolder: Conversion Metrics
+		lineageTag: 8ab5ca6b-134a-438c-9cae-f6c7ed811223
+
+	measure 'Conversion Rate' = ```
+			DIVIDE(
+			    [Total Purchases],
+			    [Total Sessions],
+			    0
+			)
+			
+			```
+		formatString: 0%;-0%;0%
+		displayFolder: Conversion Metrics
+		lineageTag: 8b541b1c-d4ba-4f89-9486-e938c15dc185
+
+	measure 'Total Revenue' = SUM(transactions[gross_revenue])
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		displayFolder: Conversion Metrics
+		lineageTag: a74bbd01-d455-4ecb-8a73-b91f29a7ba41
+
+	measure AOV = ```
+			DIVIDE(
+			    [Total Revenue],
+			    [Total Purchases],
+			    0
+			)
+			
+			```
+		formatString: \$#,0;(\$#,0);\$#,0
+		displayFolder: Conversion Metrics
+		lineageTag: e4628652-60bd-4f90-86e1-b9793b975648
+
+	measure 'Sessions with Views' = ```
+			CALCULATE(
+			    DISTINCTCOUNT('funnel_events'[session_id]),
+			    'funnel_events'[event_type] = "product_view"
+			)
+			
+			```
+		formatString: 0
+		displayFolder: Funnel Analysis Metrics
+		lineageTag: 12d596db-09ee-4b7f-9de6-fa91b6cb4e1d
+
+	measure 'Sessions with Cart' = ```
+			CALCULATE(
+			    DISTINCTCOUNT('funnel_events'[session_id]),
+			    'funnel_events'[event_type] = "add_to_cart"
+			)
+			
+			```
+		formatString: 0
+		displayFolder: Funnel Analysis Metrics
+		lineageTag: 1ac651af-bbde-487d-915b-54c2da2fc6e2
+
+	measure 'Sessions with Checkout' = ```
+			
+			CALCULATE(
+			    DISTINCTCOUNT('funnel_events'[session_id]),
+			    'funnel_events'[event_type] = "checkout_start"
+			)
+			
+			```
+		formatString: 0
+		displayFolder: Funnel Analysis Metrics
+		lineageTag: a33e8c51-e39d-4d3e-aff4-568a97504d06
+
+	measure 'View to Cart %' = ```
+			DIVIDE(
+			    [Sessions with Cart],
+			    [Sessions with Views],
+			    0
+			)
+			
+			```
+		displayFolder: Funnel Analysis Metrics
+		lineageTag: 66e3d181-0369-42ee-a312-776239cc4e29
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Cart to Checkout %' =
+			DIVIDE(
+			    [Sessions with Checkout],
+			    [Sessions with Cart],
+			    0
+			)
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: Funnel Analysis Metrics
+		lineageTag: f5a0c383-591f-4b2a-b0fb-80a2a167fc1e
+
+	measure 'Checkout to Purchase %' = ```
+			DIVIDE(
+			    [Total Purchases],
+			    [Sessions with Checkout],
+			    0
+			)
+			
+			```
+		displayFolder: Funnel Analysis Metrics
+		lineageTag: 8d711239-4e38-431f-94d5-1ef61977723a
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Cart Abandonment Rate' = ```
+			
+			VAR CartSessions = [Sessions with Cart]
+			VAR PurchasedSessions = [Total Purchases]
+			RETURN
+			DIVIDE(
+			    CartSessions - PurchasedSessions,
+			    CartSessions,
+			    0
+			)
+			
+			```
+		formatString: 0%;-0%;0%
+		displayFolder: Cart Abandonment Metrics
+		lineageTag: a0833bd5-14ad-40f7-a7fc-ee0c158fd743
+
+	measure 'Abandoned Cart Value' = SUM('Cart_Abandonment'[cart_value])
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		displayFolder: Cart Abandonment Metrics
+		lineageTag: a44afc74-311c-486b-a19d-e711a8343e29
+
+	measure 'Lost Revenue Potential' = ```
+			
+			VAR AbandonedValue = [Abandoned Cart Value]
+			VAR AvgConversionRate = [Conversion Rate]
+			RETURN
+			AbandonedValue * AvgConversionRate
+			
+			```
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		displayFolder: Cart Abandonment Metrics
+		lineageTag: 95e287bf-e826-4cd5-a794-6c9653808210
+
+	measure 'Average Abandonment Value' = ```
+			DIVIDE(
+			    [Abandoned Cart Value],
+			    COUNTROWS('Cart_Abandonment'),
+			    0
+			)
+			
+			```
+		formatString: \$#,0;(\$#,0);\$#,0
+		displayFolder: Cart Abandonment Metrics
+		lineageTag: 31700aa9-1013-497d-a0e1-e5af6c2f4993
+
+	measure 'Bundle AOV' = ```
+			CALCULATE(
+			    [AOV],
+			    Transactions[had_bundle] = "Yes"
+			)
+			
+			```
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		displayFolder: AOV Optimization Metrics
+		lineageTag: f6757beb-58a7-41d0-8418-b261feec607c
+
+	measure 'Single Item AOV' = ```
+			CALCULATE(
+			    [AOV],
+			    Transactions[had_bundle] = "No"
+			)
+			
+			```
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		displayFolder: AOV Optimization Metrics
+		lineageTag: 85da0d07-e1e2-4124-83b3-87d9ecc2282d
+
+	measure 'Bundle Uplift %' = ```
+			DIVIDE(
+			    [Bundle AOV] - [Single Item AOV],
+			    [Single Item AOV],
+			    0
+			)
+			
+			```
+		formatString: 0%;-0%;0%
+		displayFolder: AOV Optimization Metrics
+		lineageTag: f8be0cd1-1031-4c33-87cf-3259abaf6ea4
+
+	measure 'Discount Impact on AOV' = ```
+			
+			VAR WithDiscount = 
+			    CALCULATE([AOV], Transactions[discount_amount] > 0)
+			VAR NoDiscount = 
+			    CALCULATE([AOV], Transactions[discount_amount] = 0)
+			RETURN
+			WithDiscount - NoDiscount
+			
+			```
+		formatString: "Rs"#,0.###############;-"Rs"#,0.###############;"Rs"#,0.###############
+		displayFolder: AOV Optimization Metrics
+		lineageTag: 60a3cf16-44f7-490d-b63c-a4bfcacb93b9
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-PK"}
+
+	measure 'MTD Revenue' = TOTALMTD([Total Revenue], transactions[order_date])
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		displayFolder: Time Intelligence
+		lineageTag: 43b0311f-3d28-442f-b1a5-4d5f761de801
+
+	measure 'Previous Month Revenue' = ```
+			
+			VAR MaxDate =
+			    MAX ( Calendar[Date] )
+			VAR PrevMonthStart =
+			    EOMONTH ( MaxDate, -2 ) + 1
+			VAR PrevMonthEnd =
+			    EOMONTH ( MaxDate, -1 )
+			RETURN
+			CALCULATE (
+			    SUM ( Transactions[net_revenue] ),
+			    DATESBETWEEN (
+			        Calendar[Date],
+			        PrevMonthStart,
+			        PrevMonthEnd
+			    )
+			)
+			
+			```
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		displayFolder: Time Intelligence
+		lineageTag: f60773cb-7931-4724-bd67-730479f4ae90
+
+	measure 'MoM growth %' = DIVIDE([Previous Month Revenue],[MTD Revenue],0)
+		formatString: 0%;-0%;0%
+		displayFolder: Time Intelligence
+		lineageTag: 3a454e6f-0722-4c4b-b48a-33c8b13a0e2a
+
+	measure 'Last 7 Days Revenue' =
+			
+			CALCULATE(
+			    SUM(Transactions[net_revenue]),
+			    DATESINPERIOD(
+			        Calendar[Date],
+			        LASTDATE(Calendar[Date]),
+			        -7,
+			        DAY
+			    )
+			)
+		formatString: "Rs"#,0.###############;-"Rs"#,0.###############;"Rs"#,0.###############
+		displayFolder: Time Intelligence
+		lineageTag: 4ef14e58-8009-4905-b566-d145b9790ce0
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-PK"}
+
+	measure 'Weekend Revenue' = ```
+			
+			CALCULATE(
+			    [Total Revenue],
+			    Calendar[Is Weekend] = "Yes"
+			)
+			
+			```
+		formatString: "Rs"#,0.###############;-"Rs"#,0.###############;"Rs"#,0.###############
+		displayFolder: Time Intelligence
+		lineageTag: af391b33-7012-4971-a73d-165c5b6a109c
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-PK"}
+
+	measure 'Previous Week Revenue' = ```
+			
+			VAR MaxDate =
+			    MAX ( Calendar[Date] )
+			VAR PrevWeekStart =
+			    MaxDate - WEEKDAY ( MaxDate, 2 ) - 6
+			VAR PrevWeekEnd =
+			    PrevWeekStart + 6
+			RETURN
+			CALCULATE (
+			    [Total Revenue],
+			    DATESBETWEEN (
+			        Calendar[Date],
+			        PrevWeekStart,
+			        PrevWeekEnd
+			    )
+			)
+			
+			```
+		formatString: "Rs"#,0.###############;-"Rs"#,0.###############;"Rs"#,0.###############
+		displayFolder: Time Intelligence
+		lineageTag: 5b7d23ae-aebc-4e3a-b72f-9fb1218df84a
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-PK"}
+
+	measure 'Current Week Revenue' = ```
+			
+			VAR MaxDate =
+			    MAX ( Calendar[Date] )
+			VAR WeekStart =
+			    MaxDate - WEEKDAY ( MaxDate, 2 ) + 1
+			VAR WeekEnd =
+			    WeekStart + 6
+			RETURN
+			CALCULATE (
+			    [Total Revenue],
+			    DATESBETWEEN (
+			        Calendar[Date],
+			        WeekStart,
+			        WeekEnd
+			    )
+			)
+			
+			```
+		formatString: "Rs"#,0.###############;-"Rs"#,0.###############;"Rs"#,0.###############
+		displayFolder: Time Intelligence
+		lineageTag: d29bd30c-a235-42f0-a2a6-660186781c63
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-PK"}
+
+	measure 'WoW % Change' = ```
+			
+			VAR CurrentWeekRevenue =
+			    [Current Week Revenue]
+			VAR PreviousWeekRevenue =
+			    [Previous Week Revenue]
+			RETURN
+			DIVIDE (
+			    CurrentWeekRevenue - PreviousWeekRevenue,
+			    PreviousWeekRevenue
+			)
+			
+			```
+		formatString: #,0.00%;-#,0.00%;#,0.00%
+		displayFolder: Time Intelligence
+		lineageTag: 7ad87273-4618-4242-a8e1-88d92a3b066d
+
+	measure 'MTD Conversion' = TOTALMTD([Conversion Rate], transactions[order_date])
+		displayFolder: Time Intelligence
+		lineageTag: fd02b2b3-5baa-4cb1-b61e-04c0220eb5c4
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Previous Month Conversion' = ```
+			
+			VAR MaxDate =
+			    MAX ( Calendar[Date] )
+			VAR PrevMonthStart =
+			    EOMONTH ( MaxDate, -2 ) + 1
+			VAR PrevMonthEnd =
+			    EOMONTH ( MaxDate, -1 )
+			RETURN
+			CALCULATE (
+			    [Conversion Rate],
+			    DATESBETWEEN (
+			        Calendar[Date],
+			        PrevMonthStart,
+			        PrevMonthEnd
+			    )
+			)
+			
+			```
+		displayFolder: Time Intelligence
+		lineageTag: a1948d58-abaa-4791-82a4-ef4183ee65d7
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'MoM Conver growth %' = DIVIDE([Previous Month Conversion],[MTD Conversion],0)
+		formatString: 0%;-0%;0%
+		displayFolder: Time Intelligence
+		lineageTag: 1a3f25d9-13fa-4774-b1ae-bc99b2385c79
+
+	measure 'Current Week Conversion' =
+			
+			VAR MaxDate =
+			    MAX ( Calendar[Date] )
+			VAR WeekStart =
+			    MaxDate - WEEKDAY ( MaxDate, 2 ) + 1
+			VAR WeekEnd =
+			    WeekStart + 6
+			RETURN
+			CALCULATE (
+			    [Conversion Rate],
+			    DATESBETWEEN (
+			        Calendar[Date],
+			        WeekStart,
+			        WeekEnd
+			    )
+			)
+		displayFolder: Time Intelligence
+		lineageTag: 078fdf76-b998-4493-8264-9937a4a655f2
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Previous Week Conversion' =
+			
+			VAR MaxDate =
+			    MAX ( Calendar[Date] )
+			VAR PrevWeekStart =
+			    MaxDate - WEEKDAY ( MaxDate, 2 ) - 6
+			VAR PrevWeekEnd =
+			    PrevWeekStart + 6
+			RETURN
+			CALCULATE (
+			    [Conversion Rate],
+			    DATESBETWEEN (
+			        Calendar[Date],
+			        PrevWeekStart,
+			        PrevWeekEnd
+			    )
+			)
+		displayFolder: Time Intelligence
+		lineageTag: da5d1d2a-3926-4818-9311-6d77bd75057b
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'WoW % Conv Change' = ```
+			
+			VAR CurrentWeekConversion =
+			    [Current Week Conversion]
+			VAR PreviousWeekConvesion =
+			    [Previous Week Conversion]
+			RETURN
+			DIVIDE (
+			   [Current Week Conversion]  - [Previous Week Conversion],
+			    [Previous Week Conversion]
+			)
+			
+			```
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: Time Intelligence
+		lineageTag: ad516daa-fd9f-4921-b53c-46d06f4b7423
+
+	measure 'Last 28 Days Revenue'
+		displayFolder: Time Intelligence
+		lineageTag: 02b45836-b445-4a15-a008-db26379a8fdf
+
+	measure 'Previous Month Sessions' = ```
+			
+			VAR MaxDate =
+			    MAX ( Calendar[Date] )
+			VAR PrevMonthStart =
+			    EOMONTH ( MaxDate, -2 ) + 1
+			VAR PrevMonthEnd =
+			    EOMONTH ( MaxDate, -1 )
+			RETURN
+			CALCULATE (
+			    [Total Sessions],
+			    DATESBETWEEN (
+			        Calendar[Date],
+			        PrevMonthStart,
+			        PrevMonthEnd
+			    )
+			)
+			
+			```
+		formatString: 0
+		displayFolder: Conversion Metrics
+		lineageTag: 2f691ce2-598a-4d0a-968d-2dcf54bfe183
+
+	measure 'MoM Sessions Growth %' =
+			
+			VAR CurrentSessions = [MTD Sessions]
+			VAR PreviousSessions = [Previous Month Sessions]
+			RETURN
+			DIVIDE(
+			    CurrentSessions - PreviousSessions,
+			    PreviousSessions,
+			    0
+			)
+		formatString: 0%;-0%;0%
+		displayFolder: Conversion Metrics
+		lineageTag: d9da1034-2425-498c-9169-dca2fc51bcfb
+
+	measure 'Previous Week Sessions' = ```
+			
+			VAR MaxDate =
+			    MAX ( Calendar[Date] )
+			VAR PrevWeekStart =
+			    MaxDate - WEEKDAY ( MaxDate, 2 ) - 6
+			VAR PrevWeekEnd =
+			    PrevWeekStart + 6
+			RETURN
+			CALCULATE (
+			    [Total Sessions],
+			    DATESBETWEEN (
+			        Calendar[Date],
+			        PrevWeekStart,
+			        PrevWeekEnd
+			    )
+			)
+			
+			```
+		formatString: 0
+		displayFolder: Conversion Metrics
+		lineageTag: 0b4fb4d1-221a-40bd-9e75-2db35aa332f4
+
+	measure 'WoW Sessions Growth %' =
+			
+			VAR CurrentSessions = [WTD Sessions]
+			VAR PreviousSessions = [Previous Week Sessions]
+			RETURN
+			DIVIDE(
+			    CurrentSessions - PreviousSessions,
+			    PreviousSessions,
+			    0
+			)
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: Conversion Metrics
+		lineageTag: 7f749823-3e59-4830-b962-abfd9a25c55c
+
+	measure 'MTD Sessions' = ```
+			
+			VAR MaxDate =
+			    MAX ( Calendar[Date] )
+			RETURN
+			CALCULATE (
+			    [Total Sessions],
+			    FILTER (
+			        ALL ( Calendar[Date] ),
+			        Calendar[Date] >= DATE ( YEAR ( MaxDate ), MONTH ( MaxDate ), 1 )
+			            && Calendar[Date] <= MaxDate
+			    )
+			)
+			
+			
+			```
+		formatString: 0
+		displayFolder: Conversion Metrics
+		lineageTag: a393a01a-2d1c-46de-8a87-53fc75aac6c4
+
+	measure 'WTD Sessions' = ```
+			
+			VAR MaxDate =
+			    MAX ( Calendar[Date] )
+			VAR WeekStart =
+			    MaxDate - WEEKDAY ( MaxDate, 2 ) + 1
+			RETURN
+			CALCULATE (
+			    [Total Sessions],
+			    FILTER (
+			        ALL ( Calendar[Date] ),
+			        Calendar[Date] >= WeekStart
+			            && Calendar[Date] <= MaxDate
+			    )
+			)
+			
+			```
+		formatString: 0
+		displayFolder: Conversion Metrics
+		lineageTag: a93724a2-5041-4bc6-9f44-da347c6335e6
+
+	measure 'Current Month AOV' = ```
+			
+			VAR MaxDate =
+			    MAX ( Calendar[Date] )
+			VAR MonthStart =
+			    DATE ( YEAR ( MaxDate ), MONTH ( MaxDate ), 1 )
+			RETURN
+			CALCULATE (
+			    [AOV],
+			    FILTER (
+			        ALL ( Calendar[Date] ),
+			        Calendar[Date] >= MonthStart
+			            && Calendar[Date] <= MaxDate
+			    )
+			)
+			
+			```
+		formatString: "Rs"#,0.###############;-"Rs"#,0.###############;"Rs"#,0.###############
+		displayFolder: AOV Optimization Metrics
+		lineageTag: d119f28b-506a-4933-a56b-f1722c8e20bd
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-PK"}
+
+	measure 'Previous Month AOV' = ```
+			
+			VAR MaxDate =
+			    MAX ( Calendar[Date] )
+			VAR PrevMonthStart =
+			    EOMONTH ( MaxDate, -2 ) + 1
+			VAR PrevMonthEnd =
+			    EOMONTH ( MaxDate, -1 )
+			RETURN
+			CALCULATE (
+			    [AOV],
+			    DATESBETWEEN (
+			        Calendar[Date],
+			        PrevMonthStart,
+			        PrevMonthEnd
+			    )
+			)
+			
+			```
+		formatString: "Rs"#,0.###############;-"Rs"#,0.###############;"Rs"#,0.###############
+		lineageTag: 75ada438-ad2d-475b-a6fc-6b75f244931d
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-PK"}
+
+	measure 'Current Week AOV' = ```
+			
+			VAR MaxDate =
+			    MAX ( Calendar[Date] )
+			VAR WeekStart =
+			    MaxDate - WEEKDAY ( MaxDate, 2 ) + 1
+			RETURN
+			CALCULATE (
+			    [AOV],
+			    FILTER (
+			        ALL ( Calendar[Date] ),
+			        Calendar[Date] >= WeekStart
+			            && Calendar[Date] <= MaxDate
+			    )
+			)
+			
+			```
+		formatString: "Rs"#,0.###############;-"Rs"#,0.###############;"Rs"#,0.###############
+		displayFolder: AOV Optimization Metrics
+		lineageTag: 8fe8ed5e-68bc-4f9f-810b-f9387c1ffcf8
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-PK"}
+
+	measure 'Previous Week AOV' = ```
+			
+			VAR MaxDate =
+			    MAX ( Calendar[Date] )
+			VAR PrevWeekStart =
+			    MaxDate - WEEKDAY ( MaxDate, 2 ) - 6
+			VAR PrevWeekEnd =
+			    PrevWeekStart + 6
+			RETURN
+			CALCULATE (
+			    [AOV],
+			    FILTER (
+			        ALL ( Calendar[Date] ),
+			        Calendar[Date] >= PrevWeekStart
+			            && Calendar[Date] <= PrevWeekEnd
+			    )
+			)
+			
+			```
+		formatString: "Rs"#,0.###############;-"Rs"#,0.###############;"Rs"#,0.###############
+		displayFolder: AOV Optimization Metrics
+		lineageTag: 3575e3de-1dcb-4cfd-bee0-aaa00f4a61c7
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-PK"}
+
+	measure 'MoM AOV Growth %' =
+			
+			VAR CurrentAOV = [Current Month AOV]
+			VAR PreviousAOV = [Previous Month AOV]
+			RETURN
+			DIVIDE(
+			    CurrentAOV - PreviousAOV,
+			    PreviousAOV,
+			    0
+			)
+		formatString: 0%;-0%;0%
+		displayFolder: AOV Optimization Metrics
+		lineageTag: bc128c95-f0cf-41eb-bc87-052b1da8ab38
+
+	measure 'WoW AOV Growth %' =
+			
+			VAR CurrentAOV = [Current Week AOV]
+			VAR PreviousAOV = [Previous Week AOV]
+			RETURN
+			DIVIDE(
+			    CurrentAOV - PreviousAOV,
+			    PreviousAOV,
+			    0
+			)
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: AOV Optimization Metrics
+		lineageTag: ac377243-d3ef-4179-b560-54d24ae5a15a
+
+	measure 'Abandoned Carts by Device' =
+			
+			CALCULATE(
+			    COUNTROWS('Cart_Abandonment'),
+			    ALLEXCEPT('Cart_Abandonment', Sessions[device])
+			)
+		formatString: 0
+		displayFolder: Funnel Analysis Metrics
+		lineageTag: 89508324-17d4-4944-b2ec-7de62ada684f
+
+	measure 'Session to View Drop %' =
+			
+			VAR TotalSessions = [Total Sessions]
+			VAR ViewSessions = [Sessions with Views]
+			RETURN
+			DIVIDE(TotalSessions - ViewSessions, TotalSessions, 0)
+		formatString: #,0%;-#,0%;#,0%
+		displayFolder: Funnel Analysis Metrics
+		lineageTag: 80a47b1a-a4ed-416e-b935-197cf9945fde
+
+	measure 'View to Cart Drop %' =
+			
+			VAR ViewSessions = [Sessions with Views]
+			VAR CartSessions = [Sessions with Cart]
+			RETURN
+			DIVIDE(ViewSessions - CartSessions, ViewSessions, 0)
+		formatString: 0%;-0%;0%
+		displayFolder: Funnel Analysis Metrics
+		lineageTag: 29ed72d0-efa9-4079-b350-9233a100c7fa
+
+	measure 'Cart to Checkout Drop %' =
+			
+			VAR CartSessions = [Sessions with Cart]
+			VAR CheckoutSessions = [Sessions with Checkout]
+			RETURN
+			DIVIDE(CartSessions - CheckoutSessions, CartSessions, 0)
+		formatString: #,0%;-#,0%;#,0%
+		displayFolder: Funnel Analysis Metrics
+		lineageTag: a55df0f4-678b-4ab2-8c25-69e0a8baaf08
+
+	measure 'Checkout to Purchase Drop %' =
+			
+			VAR CheckoutSessions = [Sessions with Checkout]
+			VAR Purchases = [Total Purchases]
+			RETURN
+			DIVIDE(CheckoutSessions - Purchases, CheckoutSessions, 0)
+		formatString: 0%;-0%;0%
+		displayFolder: Funnel Analysis Metrics
+		lineageTag: 6ac91dd0-e358-44fb-93e2-21b2a5bbcb3f
+
+	measure 'Sessions with Purchase' = ```
+			CALCULATE(
+			    DISTINCTCOUNT('funnel_events'[session_id]),
+			    'funnel_events'[event_type] = "purchase"
+			)
+			
+			```
+		formatString: 0
+		displayFolder: Funnel Analysis Metrics
+		lineageTag: 2235e165-02e3-4337-a2c4-a11ba6275f58
+
+	measure 'Conversion Rate by Category' =
+			
+			CALCULATE(
+			    [Conversion Rate],
+			    ALLEXCEPT('funnel_events', 'Funnel_Events'[category])
+			)
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: Funnel Analysis Metrics
+		lineageTag: 19080854-cfde-4e1d-992f-02105fcb57aa
+
+	measure 'Abandoned Value by Category' =
+			
+			VAR CurrentCategory = SELECTEDVALUE('funnel_events'[category])
+			RETURN
+			IF(
+			    NOT ISBLANK(CurrentCategory),
+			    CALCULATE(
+			        SUM('cart_abandonment'[cart_value]),
+			        FILTER(
+			            'Cart_Abandonment',
+			            CALCULATE(
+			                COUNTROWS('Funnel_Events'),
+			                'Funnel_Events'[category] = CurrentCategory,
+			                'Funnel_Events'[event_type] = "add_to_cart"
+			            ) > 0
+			        )
+			    ),
+			    BLANK()
+			)
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		displayFolder: Cart Abandonment Metrics
+		lineageTag: fd37229b-9a8f-42cb-8f6e-73c564816a4f
+
+	measure 'AOV by Category' =
+			
+			CALCULATE(
+			    DIVIDE(
+			        SUM(Transactions[gross_revenue]),
+			        COUNTROWS(Transactions),
+			        0
+			    ),
+			    TREATAS(
+			        VALUES('Funnel_Events'[session_id]),
+			        Transactions[session_id]
+			    ),
+			    'Funnel_Events'[event_type] = "purchase"
+			)
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		displayFolder: AOV Optimization Metrics
+		lineageTag: 56279fcf-3226-4655-bb4b-74bd0b5bfb5c
+
+	partition _Measures = m
+		mode: import
+		source =
+				let
+				    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i44FAA==", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Column1 = _t]),
+				    #"Changed Type" = Table.TransformColumnTypes(Source,{{"Column1", type text}}),
+				    #"Removed Columns" = Table.RemoveColumns(#"Changed Type",{"Column1"})
+				in
+				    #"Removed Columns"
+
+	annotation PBI_ResultType = Table
+

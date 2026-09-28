@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Funnal Optimization"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "bac79570-d307-420c-8340-cfa8a9d098e2"
+  }
+}

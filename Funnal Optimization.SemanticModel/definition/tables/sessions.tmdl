@@ -1,0 +1,79 @@
+table sessions
+	lineageTag: 42e424c3-2e33-4e28-858d-fc5975fe0b65
+
+	column session_id
+		dataType: int64
+		formatString: 0
+		lineageTag: 3017eb81-0d70-42f7-87db-37031a8b85e7
+		summarizeBy: none
+		sourceColumn: session_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column user_id
+		dataType: string
+		lineageTag: 71786a3e-dde6-4f6f-8e0b-726dd020d852
+		summarizeBy: none
+		sourceColumn: user_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column device
+		dataType: string
+		lineageTag: 3003b78e-63f1-4b82-82ec-32f66acab0ad
+		summarizeBy: none
+		sourceColumn: device
+
+		annotation SummarizationSetBy = Automatic
+
+	column traffic_source
+		dataType: string
+		lineageTag: cd66cf01-9713-4828-98eb-458d21924ea9
+		summarizeBy: none
+		sourceColumn: traffic_source
+
+		annotation SummarizationSetBy = Automatic
+
+	column session_date
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 172f6942-f196-4c38-97d3-80eb6c44b609
+		summarizeBy: none
+		sourceColumn: session_date
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column session_start_time
+		dataType: dateTime
+		formatString: Long Time
+		lineageTag: bb6e3d1d-0930-432f-905f-efc6feb519d1
+		summarizeBy: none
+		sourceColumn: session_start_time
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Time
+
+	column 'Hour of Day' =
+			
+			HOUR ( Sessions[session_start_time] )
+		formatString: 0
+		lineageTag: 6855c232-3dd2-4f9e-b273-8a79f9f6f9cb
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	partition sessions = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\hp\Downloads\sessions.csv"),[Delimiter=",", Columns=6, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"session_id", Int64.Type}, {"user_id", type text}, {"device", type text}, {"traffic_source", type text}, {"session_date", type date}, {"session_start_time", type time}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+

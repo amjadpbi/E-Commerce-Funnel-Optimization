@@ -1,0 +1,36 @@
+relationship 797c5997-36ac-414b-bc23-71b5ffbdf0a1
+	joinOnDateBehavior: datePartOnly
+	fromColumn: funnel_events.timestamp
+	toColumn: LocalDateTable_2b277e73-8e25-4ce5-bcc2-164a7fd58df4.Date
+
+relationship b9a569a9-449a-4a17-b327-8db594d8bd8b
+	joinOnDateBehavior: datePartOnly
+	fromColumn: transactions.order_date
+	toColumn: LocalDateTable_895f5800-2ffe-493f-b863-0f169cfd9de3.Date
+
+relationship 2f7ba39a-756e-60f9-3d86-be1ce6ac4532
+	crossFilteringBehavior: bothDirections
+	fromCardinality: one
+	fromColumn: cart_abandonment.session_id
+	toColumn: sessions.session_id
+
+relationship 453a40cf-245c-d6a0-e990-36020e24066d
+	crossFilteringBehavior: bothDirections
+	fromColumn: funnel_events.session_id
+	toColumn: sessions.session_id
+
+relationship bc58e4b9-122f-5f36-b0e8-240fd1832994
+	crossFilteringBehavior: bothDirections
+	fromCardinality: one
+	fromColumn: transactions.session_id
+	toColumn: sessions.session_id
+
+relationship ebc4bcfa-79ec-4d0f-a773-4f3c76c1e2bf
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Calendar.Date
+	toColumn: LocalDateTable_df006813-e00b-4ef3-9d2c-f9354f50954d.Date
+
+relationship bdf0c199-3d28-8b71-dde3-2a7d7a65bdbc
+	fromColumn: sessions.session_date
+	toColumn: Calendar.Date
+

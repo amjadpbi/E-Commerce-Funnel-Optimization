@@ -1,0 +1,92 @@
+table cart_abandonment
+	lineageTag: 3166f4b5-c661-4e47-87db-eebd2480cfbe
+
+	column cart_id
+		dataType: string
+		lineageTag: 9e8d81f0-3d5c-4907-8252-d68d78617215
+		summarizeBy: none
+		sourceColumn: cart_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column session_id
+		dataType: int64
+		formatString: 0
+		lineageTag: 89edcd03-0bd0-4ffc-b8f5-70bac5beaaeb
+		summarizeBy: none
+		sourceColumn: session_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column products_in_cart
+		dataType: int64
+		formatString: 0
+		lineageTag: 97969dce-3d55-4187-a684-9e2f22226089
+		summarizeBy: sum
+		sourceColumn: products_in_cart
+
+		annotation SummarizationSetBy = Automatic
+
+	column cart_value
+		dataType: decimal
+		lineageTag: e5becdbc-569f-4e05-abec-5d95d5202d0f
+		summarizeBy: sum
+		sourceColumn: cart_value
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column abandonment_reason
+		dataType: string
+		lineageTag: a2731963-5a0b-4fce-964a-31cfc9491f57
+		summarizeBy: none
+		sourceColumn: abandonment_reason
+
+		annotation SummarizationSetBy = Automatic
+
+	column device
+		dataType: string
+		lineageTag: 4794558c-e20b-46de-8056-2dd60db58639
+		summarizeBy: none
+		sourceColumn: device
+
+		annotation SummarizationSetBy = Automatic
+
+	column time_in_cart_mins
+		dataType: int64
+		formatString: 0
+		lineageTag: 0aef3a7e-7a14-4f28-a2a4-fc623740dd8a
+		summarizeBy: sum
+		sourceColumn: time_in_cart_mins
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Time Bucket Grouped' =
+			
+			SWITCH(
+			    TRUE(),
+			    'Cart_Abandonment'[time_in_cart_mins] <= 10, "0-10 min (Immediate)",
+			    'Cart_Abandonment'[time_in_cart_mins] <= 20, "11-20 min (Quick)",
+			    'Cart_Abandonment'[time_in_cart_mins] <= 30, "21-30 min (Extended)",
+			    "31-45 min (Long)"
+			)
+		lineageTag: 2514146a-e0bb-481a-8baf-23ffa6831d90
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	partition cart_abandonment = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\hp\Downloads\cart_abandonment.csv"),[Delimiter=",", Columns=7, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"cart_id", type text}, {"session_id", Int64.Type}, {"products_in_cart", Int64.Type}, {"cart_value", Currency.Type}, {"abandonment_reason", type text}, {"device", type text}, {"time_in_cart_mins", Int64.Type}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

@@ -1,0 +1,1701 @@
+cart_id,session_id,products_in_cart,cart_value,abandonment_reason,device,time_in_cart_mins
+CART_00001,2,3,45.56,Price Too High,Tablet,6
+CART_00002,7,1,198.81,Technical Issue,Desktop,11
+CART_00003,13,1,248.64,High Shipping Cost,Mobile,35
+CART_00004,16,3,118.64,Other,Desktop,28
+CART_00005,17,1,159.21,Just Browsing,Desktop,39
+CART_00006,19,2,106.09,Price Too High,Mobile,41
+CART_00007,20,2,90.61,Price Too High,Desktop,6
+CART_00008,21,4,197.54,Price Too High,Mobile,4
+CART_00009,22,4,33.45,Just Browsing,Desktop,39
+CART_00010,23,2,34.69,High Shipping Cost,Desktop,44
+CART_00011,24,2,132.44,High Shipping Cost,Desktop,39
+CART_00012,29,1,43.17,Other,Mobile,38
+CART_00013,30,3,202.82,Other,Desktop,27
+CART_00014,34,2,96.88,Price Too High,Tablet,34
+CART_00015,37,2,123.82,Other,Desktop,9
+CART_00016,38,3,77.0,Just Browsing,Desktop,20
+CART_00017,43,4,222.47,High Shipping Cost,Desktop,9
+CART_00018,47,2,154.03,Price Too High,Desktop,25
+CART_00019,48,1,33.14,Other,Mobile,24
+CART_00020,50,3,188.97,Just Browsing,Desktop,43
+CART_00021,51,3,92.34,High Shipping Cost,Tablet,30
+CART_00022,52,3,209.71,Other,Mobile,5
+CART_00023,54,3,246.62,Other,Tablet,1
+CART_00024,57,2,248.75,High Shipping Cost,Desktop,34
+CART_00025,59,2,51.55,Just Browsing,Desktop,5
+CART_00026,60,2,88.85,Technical Issue,Desktop,1
+CART_00027,62,4,200.11,High Shipping Cost,Desktop,24
+CART_00028,63,1,145.28,Just Browsing,Mobile,44
+CART_00029,64,3,59.1,Other,Desktop,44
+CART_00030,70,4,207.48,Just Browsing,Tablet,7
+CART_00031,72,4,172.62,Technical Issue,Desktop,6
+CART_00032,74,4,77.84,Other,Mobile,8
+CART_00033,76,1,50.7,Just Browsing,Mobile,3
+CART_00034,82,3,177.8,Other,Mobile,39
+CART_00035,85,1,176.74,Other,Desktop,27
+CART_00036,86,3,140.96,Technical Issue,Desktop,27
+CART_00037,89,1,139.59,Price Too High,Tablet,25
+CART_00038,90,3,198.48,High Shipping Cost,Mobile,4
+CART_00039,91,2,172.34,Price Too High,Desktop,6
+CART_00040,95,2,77.91,Price Too High,Mobile,43
+CART_00041,98,1,124.85,High Shipping Cost,Mobile,16
+CART_00042,101,1,80.55,Just Browsing,Desktop,14
+CART_00043,105,4,72.65,Just Browsing,Tablet,5
+CART_00044,110,3,87.63,Technical Issue,Desktop,35
+CART_00045,111,2,111.76,Other,Desktop,32
+CART_00046,114,3,145.85,Just Browsing,Mobile,13
+CART_00047,124,2,88.97,High Shipping Cost,Desktop,5
+CART_00048,128,3,166.4,Technical Issue,Tablet,7
+CART_00049,129,3,228.98,Technical Issue,Desktop,36
+CART_00050,130,4,170.54,Other,Mobile,19
+CART_00051,135,3,190.37,Technical Issue,Tablet,4
+CART_00052,136,3,228.24,High Shipping Cost,Desktop,38
+CART_00053,139,2,84.88,High Shipping Cost,Desktop,4
+CART_00054,140,3,132.5,Other,Tablet,11
+CART_00055,148,2,54.21,Price Too High,Mobile,25
+CART_00056,150,1,104.39,Just Browsing,Desktop,30
+CART_00057,154,1,107.48,Price Too High,Mobile,19
+CART_00058,158,3,102.02,High Shipping Cost,Mobile,7
+CART_00059,160,4,86.67,High Shipping Cost,Mobile,39
+CART_00060,165,1,239.01,Just Browsing,Desktop,25
+CART_00061,167,3,194.93,Other,Desktop,9
+CART_00062,169,4,126.78,Other,Desktop,11
+CART_00063,171,2,93.73,Just Browsing,Mobile,32
+CART_00064,180,1,98.09,High Shipping Cost,Desktop,11
+CART_00065,185,1,240.53,Technical Issue,Desktop,11
+CART_00066,187,4,204.84,Price Too High,Mobile,43
+CART_00067,189,1,115.88,High Shipping Cost,Mobile,37
+CART_00068,195,3,120.58,High Shipping Cost,Desktop,41
+CART_00069,198,3,75.66,Technical Issue,Tablet,17
+CART_00070,203,4,198.02,Price Too High,Desktop,39
+CART_00071,205,4,234.33,Price Too High,Mobile,30
+CART_00072,208,3,127.04,High Shipping Cost,Mobile,3
+CART_00073,209,4,203.82,Technical Issue,Desktop,1
+CART_00074,210,1,68.31,High Shipping Cost,Desktop,44
+CART_00075,211,1,34.8,Other,Mobile,20
+CART_00076,212,1,242.56,High Shipping Cost,Mobile,36
+CART_00077,213,1,33.35,High Shipping Cost,Mobile,33
+CART_00078,222,3,183.42,High Shipping Cost,Mobile,14
+CART_00079,227,3,78.35,Just Browsing,Tablet,22
+CART_00080,229,3,128.44,Other,Tablet,12
+CART_00081,230,1,171.43,Other,Mobile,12
+CART_00082,231,4,102.96,High Shipping Cost,Mobile,37
+CART_00083,233,4,131.67,Just Browsing,Mobile,40
+CART_00084,235,4,43.92,Other,Desktop,43
+CART_00085,236,3,128.83,Price Too High,Mobile,37
+CART_00086,240,3,66.0,Price Too High,Desktop,35
+CART_00087,242,3,195.36,Just Browsing,Tablet,4
+CART_00088,243,2,219.84,Other,Tablet,41
+CART_00089,244,4,143.97,Technical Issue,Desktop,43
+CART_00090,246,2,66.37,Other,Tablet,30
+CART_00091,252,3,105.79,Just Browsing,Desktop,30
+CART_00092,258,4,128.3,Other,Mobile,40
+CART_00093,259,4,63.14,Other,Mobile,27
+CART_00094,260,2,207.6,Other,Desktop,45
+CART_00095,264,3,121.01,Price Too High,Mobile,43
+CART_00096,265,2,157.57,Technical Issue,Tablet,33
+CART_00097,266,1,109.91,Just Browsing,Mobile,14
+CART_00098,267,2,140.83,Price Too High,Mobile,34
+CART_00099,268,2,176.75,High Shipping Cost,Mobile,14
+CART_00100,269,1,84.0,Price Too High,Desktop,26
+CART_00101,270,4,176.52,High Shipping Cost,Desktop,42
+CART_00102,271,4,47.41,Price Too High,Mobile,4
+CART_00103,275,1,83.28,Price Too High,Mobile,34
+CART_00104,277,4,232.91,High Shipping Cost,Mobile,18
+CART_00105,287,1,41.21,Other,Mobile,12
+CART_00106,289,1,138.45,Other,Desktop,13
+CART_00107,290,2,227.91,Other,Mobile,4
+CART_00108,303,1,93.99,Just Browsing,Mobile,39
+CART_00109,304,1,248.57,Just Browsing,Mobile,8
+CART_00110,306,2,119.66,Just Browsing,Tablet,11
+CART_00111,310,2,197.45,Other,Desktop,13
+CART_00112,313,3,138.33,Just Browsing,Desktop,29
+CART_00113,316,3,111.39,Just Browsing,Mobile,35
+CART_00114,317,3,173.48,High Shipping Cost,Mobile,30
+CART_00115,319,2,79.12,Price Too High,Desktop,29
+CART_00116,323,1,87.32,High Shipping Cost,Mobile,16
+CART_00117,327,2,91.61,Other,Mobile,22
+CART_00118,330,1,79.51,Just Browsing,Desktop,41
+CART_00119,334,1,157.15,Price Too High,Desktop,25
+CART_00120,337,4,145.23,Other,Tablet,30
+CART_00121,341,2,165.6,High Shipping Cost,Mobile,2
+CART_00122,349,3,88.93,Just Browsing,Desktop,13
+CART_00123,356,4,107.94,Price Too High,Mobile,34
+CART_00124,357,2,67.67,High Shipping Cost,Desktop,1
+CART_00125,364,4,125.15,Other,Mobile,42
+CART_00126,365,1,123.47,Just Browsing,Tablet,21
+CART_00127,367,3,128.33,Technical Issue,Tablet,35
+CART_00128,370,2,95.7,Price Too High,Desktop,22
+CART_00129,373,3,31.62,Other,Desktop,4
+CART_00130,375,4,44.07,Other,Desktop,21
+CART_00131,377,2,121.4,Price Too High,Mobile,45
+CART_00132,378,2,140.86,Price Too High,Desktop,44
+CART_00133,380,4,185.82,Price Too High,Desktop,21
+CART_00134,385,4,100.57,Other,Mobile,15
+CART_00135,388,1,192.71,Other,Desktop,23
+CART_00136,390,1,124.34,High Shipping Cost,Mobile,27
+CART_00137,391,4,232.85,Other,Tablet,29
+CART_00138,396,2,66.84,Just Browsing,Tablet,22
+CART_00139,402,2,76.25,Price Too High,Tablet,7
+CART_00140,403,2,56.56,High Shipping Cost,Mobile,23
+CART_00141,414,2,233.35,High Shipping Cost,Mobile,1
+CART_00142,415,3,230.19,High Shipping Cost,Mobile,28
+CART_00143,420,3,61.7,Price Too High,Mobile,14
+CART_00144,423,2,44.92,Price Too High,Desktop,18
+CART_00145,427,3,193.39,Price Too High,Mobile,30
+CART_00146,429,1,122.28,Price Too High,Desktop,19
+CART_00147,430,3,211.9,Other,Desktop,26
+CART_00148,432,3,193.84,High Shipping Cost,Mobile,15
+CART_00149,433,3,223.67,High Shipping Cost,Mobile,22
+CART_00150,434,1,82.83,Technical Issue,Desktop,5
+CART_00151,437,3,124.53,High Shipping Cost,Desktop,23
+CART_00152,438,3,195.33,Other,Mobile,7
+CART_00153,439,1,178.44,High Shipping Cost,Mobile,39
+CART_00154,441,2,31.73,Price Too High,Desktop,44
+CART_00155,444,2,90.8,Price Too High,Desktop,4
+CART_00156,445,3,120.66,High Shipping Cost,Mobile,19
+CART_00157,446,1,234.7,Other,Tablet,7
+CART_00158,447,3,100.06,High Shipping Cost,Tablet,24
+CART_00159,448,2,160.34,High Shipping Cost,Mobile,44
+CART_00160,449,3,171.0,High Shipping Cost,Desktop,18
+CART_00161,450,1,121.48,Technical Issue,Desktop,30
+CART_00162,452,1,217.29,Other,Mobile,13
+CART_00163,453,2,86.45,High Shipping Cost,Mobile,42
+CART_00164,455,2,192.62,Price Too High,Desktop,32
+CART_00165,456,2,159.03,High Shipping Cost,Mobile,37
+CART_00166,458,3,249.28,Just Browsing,Mobile,5
+CART_00167,462,4,239.48,Just Browsing,Mobile,15
+CART_00168,463,3,152.76,High Shipping Cost,Mobile,38
+CART_00169,474,3,110.32,Technical Issue,Tablet,24
+CART_00170,475,4,141.37,Other,Mobile,8
+CART_00171,476,2,238.91,Just Browsing,Tablet,34
+CART_00172,477,4,103.83,Other,Desktop,38
+CART_00173,480,1,229.1,Other,Mobile,21
+CART_00174,481,2,41.14,Price Too High,Mobile,10
+CART_00175,484,2,105.42,Other,Mobile,33
+CART_00176,486,4,209.41,Technical Issue,Tablet,31
+CART_00177,487,4,243.27,Price Too High,Desktop,31
+CART_00178,489,1,111.37,Just Browsing,Tablet,35
+CART_00179,494,1,132.54,Price Too High,Desktop,18
+CART_00180,495,4,241.1,Price Too High,Mobile,21
+CART_00181,499,1,132.48,High Shipping Cost,Tablet,24
+CART_00182,501,3,237.19,High Shipping Cost,Mobile,10
+CART_00183,502,2,102.3,High Shipping Cost,Mobile,33
+CART_00184,507,4,145.7,Just Browsing,Tablet,2
+CART_00185,509,4,237.05,Technical Issue,Tablet,34
+CART_00186,512,3,159.32,Just Browsing,Mobile,27
+CART_00187,514,1,56.99,Price Too High,Tablet,16
+CART_00188,520,2,223.35,Price Too High,Desktop,43
+CART_00189,522,1,34.78,Technical Issue,Desktop,25
+CART_00190,526,2,49.04,Other,Mobile,10
+CART_00191,527,1,63.44,Other,Mobile,19
+CART_00192,528,1,126.72,Price Too High,Desktop,12
+CART_00193,529,4,89.53,Price Too High,Desktop,37
+CART_00194,530,1,217.58,Other,Tablet,38
+CART_00195,531,1,170.11,Just Browsing,Mobile,30
+CART_00196,533,3,84.09,Technical Issue,Tablet,4
+CART_00197,534,1,164.88,High Shipping Cost,Mobile,4
+CART_00198,537,1,121.28,High Shipping Cost,Mobile,15
+CART_00199,539,2,67.17,Just Browsing,Mobile,20
+CART_00200,540,4,72.93,Other,Desktop,6
+CART_00201,552,2,52.29,Price Too High,Tablet,36
+CART_00202,554,4,170.21,Price Too High,Mobile,7
+CART_00203,558,1,85.83,Technical Issue,Desktop,33
+CART_00204,562,1,202.96,Price Too High,Desktop,5
+CART_00205,564,3,103.36,Just Browsing,Desktop,26
+CART_00206,568,3,109.43,Other,Mobile,25
+CART_00207,569,4,208.87,High Shipping Cost,Tablet,11
+CART_00208,574,3,201.19,Just Browsing,Mobile,15
+CART_00209,575,2,190.2,Other,Tablet,45
+CART_00210,578,3,92.78,High Shipping Cost,Tablet,35
+CART_00211,579,3,213.81,High Shipping Cost,Mobile,8
+CART_00212,581,2,194.6,High Shipping Cost,Mobile,33
+CART_00213,590,4,78.28,Technical Issue,Desktop,38
+CART_00214,591,4,35.94,Technical Issue,Desktop,34
+CART_00215,593,1,174.21,Technical Issue,Desktop,34
+CART_00216,595,3,156.1,High Shipping Cost,Tablet,3
+CART_00217,596,2,65.82,High Shipping Cost,Mobile,44
+CART_00218,597,2,52.57,Price Too High,Mobile,43
+CART_00219,601,1,201.4,Price Too High,Desktop,30
+CART_00220,605,4,161.34,Technical Issue,Desktop,14
+CART_00221,607,4,176.12,Technical Issue,Desktop,16
+CART_00222,608,1,226.96,Other,Desktop,36
+CART_00223,609,1,144.49,Just Browsing,Mobile,17
+CART_00224,613,3,39.41,High Shipping Cost,Mobile,10
+CART_00225,618,2,136.02,Other,Desktop,6
+CART_00226,619,3,62.83,Just Browsing,Mobile,9
+CART_00227,622,4,41.23,Price Too High,Desktop,21
+CART_00228,625,1,69.76,Price Too High,Mobile,17
+CART_00229,626,3,62.98,Price Too High,Desktop,38
+CART_00230,638,1,94.93,Other,Desktop,8
+CART_00231,641,3,95.05,Other,Desktop,4
+CART_00232,642,1,40.34,Price Too High,Desktop,40
+CART_00233,645,3,50.36,Other,Desktop,28
+CART_00234,646,3,33.36,Other,Tablet,9
+CART_00235,652,2,103.14,Other,Mobile,17
+CART_00236,653,1,129.7,High Shipping Cost,Mobile,15
+CART_00237,654,2,41.72,Price Too High,Mobile,33
+CART_00238,661,2,108.29,Just Browsing,Desktop,17
+CART_00239,662,3,171.01,Technical Issue,Tablet,18
+CART_00240,668,1,124.76,Price Too High,Desktop,42
+CART_00241,673,3,193.43,Price Too High,Desktop,33
+CART_00242,675,2,82.42,High Shipping Cost,Mobile,2
+CART_00243,676,1,69.71,Technical Issue,Tablet,42
+CART_00244,679,2,197.48,Technical Issue,Tablet,28
+CART_00245,683,1,140.65,High Shipping Cost,Desktop,35
+CART_00246,684,2,145.2,High Shipping Cost,Mobile,8
+CART_00247,686,3,166.31,Just Browsing,Mobile,39
+CART_00248,689,1,131.24,Price Too High,Mobile,34
+CART_00249,691,3,194.31,Just Browsing,Desktop,36
+CART_00250,695,3,155.47,High Shipping Cost,Desktop,19
+CART_00251,699,1,55.99,High Shipping Cost,Desktop,17
+CART_00252,701,4,85.03,Other,Mobile,38
+CART_00253,702,4,239.05,Price Too High,Desktop,3
+CART_00254,703,4,188.06,Other,Desktop,37
+CART_00255,705,3,87.11,Technical Issue,Desktop,40
+CART_00256,709,1,215.74,High Shipping Cost,Desktop,42
+CART_00257,711,1,137.62,Other,Mobile,24
+CART_00258,718,1,102.67,High Shipping Cost,Tablet,14
+CART_00259,724,3,60.74,Just Browsing,Mobile,44
+CART_00260,725,1,239.83,Other,Mobile,36
+CART_00261,730,4,145.55,Other,Desktop,38
+CART_00262,731,1,157.97,High Shipping Cost,Desktop,30
+CART_00263,732,4,37.39,High Shipping Cost,Mobile,39
+CART_00264,734,2,190.25,High Shipping Cost,Mobile,33
+CART_00265,735,1,79.21,High Shipping Cost,Desktop,16
+CART_00266,736,4,144.64,Just Browsing,Tablet,39
+CART_00267,740,1,226.0,High Shipping Cost,Desktop,7
+CART_00268,741,2,131.93,Just Browsing,Mobile,14
+CART_00269,742,4,231.43,Price Too High,Desktop,45
+CART_00270,745,1,167.45,Technical Issue,Desktop,19
+CART_00271,747,3,235.63,Other,Desktop,27
+CART_00272,752,2,47.55,Other,Tablet,1
+CART_00273,753,1,147.88,Price Too High,Mobile,20
+CART_00274,754,2,149.71,High Shipping Cost,Desktop,21
+CART_00275,755,3,214.89,Just Browsing,Desktop,25
+CART_00276,756,2,73.0,Price Too High,Mobile,21
+CART_00277,761,4,128.05,Price Too High,Desktop,40
+CART_00278,767,2,199.45,Just Browsing,Mobile,14
+CART_00279,768,4,160.64,Technical Issue,Tablet,37
+CART_00280,769,4,93.27,Price Too High,Desktop,21
+CART_00281,770,2,231.34,Price Too High,Mobile,25
+CART_00282,775,2,153.06,High Shipping Cost,Mobile,24
+CART_00283,776,2,159.63,Price Too High,Desktop,45
+CART_00284,778,1,38.84,Other,Mobile,17
+CART_00285,780,1,93.69,Price Too High,Mobile,10
+CART_00286,781,3,239.05,High Shipping Cost,Mobile,1
+CART_00287,786,3,214.14,Price Too High,Tablet,24
+CART_00288,788,1,30.65,High Shipping Cost,Mobile,24
+CART_00289,790,4,207.4,Other,Tablet,9
+CART_00290,793,4,147.7,Other,Mobile,5
+CART_00291,799,3,115.54,Other,Mobile,44
+CART_00292,800,4,189.15,Other,Tablet,12
+CART_00293,805,4,66.91,High Shipping Cost,Mobile,38
+CART_00294,808,4,107.83,Just Browsing,Tablet,32
+CART_00295,809,3,241.12,High Shipping Cost,Mobile,17
+CART_00296,813,2,141.87,Price Too High,Desktop,29
+CART_00297,814,3,87.41,Technical Issue,Tablet,6
+CART_00298,817,3,209.44,Just Browsing,Mobile,3
+CART_00299,819,4,163.03,Price Too High,Desktop,30
+CART_00300,821,3,97.78,Price Too High,Mobile,7
+CART_00301,824,1,183.45,Price Too High,Desktop,32
+CART_00302,825,3,234.53,Other,Mobile,34
+CART_00303,827,2,61.79,Price Too High,Desktop,25
+CART_00304,829,3,201.58,High Shipping Cost,Mobile,36
+CART_00305,834,1,124.34,Technical Issue,Desktop,45
+CART_00306,837,3,228.75,Price Too High,Tablet,11
+CART_00307,840,4,156.33,Just Browsing,Mobile,27
+CART_00308,844,3,136.59,Just Browsing,Tablet,19
+CART_00309,845,1,52.34,Technical Issue,Desktop,13
+CART_00310,852,3,98.85,Other,Mobile,6
+CART_00311,853,1,241.88,Just Browsing,Desktop,9
+CART_00312,857,1,81.64,Other,Desktop,14
+CART_00313,861,2,35.77,Price Too High,Mobile,39
+CART_00314,864,4,222.04,Just Browsing,Mobile,23
+CART_00315,865,3,139.53,High Shipping Cost,Mobile,24
+CART_00316,870,1,87.43,Just Browsing,Tablet,31
+CART_00317,871,2,235.89,Price Too High,Desktop,5
+CART_00318,882,4,175.77,High Shipping Cost,Mobile,28
+CART_00319,890,4,132.85,Price Too High,Desktop,15
+CART_00320,894,4,37.71,Technical Issue,Desktop,30
+CART_00321,896,1,125.33,Technical Issue,Desktop,40
+CART_00322,901,2,43.64,Price Too High,Desktop,9
+CART_00323,905,2,173.13,High Shipping Cost,Mobile,23
+CART_00324,909,3,242.13,Other,Desktop,41
+CART_00325,910,3,57.23,Just Browsing,Desktop,19
+CART_00326,911,4,156.6,Other,Mobile,42
+CART_00327,913,4,169.57,Just Browsing,Mobile,2
+CART_00328,914,1,136.42,High Shipping Cost,Mobile,34
+CART_00329,916,2,34.29,High Shipping Cost,Mobile,5
+CART_00330,919,2,101.85,High Shipping Cost,Mobile,44
+CART_00331,921,3,161.83,High Shipping Cost,Tablet,41
+CART_00332,924,2,71.79,Just Browsing,Mobile,26
+CART_00333,927,1,227.18,High Shipping Cost,Desktop,42
+CART_00334,928,4,136.82,Price Too High,Mobile,17
+CART_00335,929,4,75.87,Price Too High,Mobile,15
+CART_00336,934,3,187.75,High Shipping Cost,Mobile,7
+CART_00337,939,4,204.6,High Shipping Cost,Desktop,3
+CART_00338,942,4,59.55,High Shipping Cost,Mobile,16
+CART_00339,943,3,155.5,Just Browsing,Mobile,16
+CART_00340,944,4,150.78,High Shipping Cost,Mobile,31
+CART_00341,947,4,173.82,High Shipping Cost,Desktop,21
+CART_00342,948,2,208.04,High Shipping Cost,Tablet,18
+CART_00343,952,2,161.99,Other,Mobile,8
+CART_00344,953,1,212.43,Just Browsing,Desktop,43
+CART_00345,957,3,104.67,High Shipping Cost,Mobile,39
+CART_00346,958,2,235.54,Other,Desktop,34
+CART_00347,959,4,191.3,Just Browsing,Desktop,30
+CART_00348,962,2,240.25,Just Browsing,Mobile,10
+CART_00349,963,3,113.11,Just Browsing,Desktop,23
+CART_00350,965,3,234.3,High Shipping Cost,Desktop,8
+CART_00351,966,2,139.02,Other,Desktop,22
+CART_00352,967,1,209.44,Just Browsing,Mobile,27
+CART_00353,972,3,143.09,Technical Issue,Tablet,34
+CART_00354,973,2,90.42,Other,Mobile,10
+CART_00355,974,1,94.34,Price Too High,Desktop,38
+CART_00356,975,1,54.63,High Shipping Cost,Desktop,26
+CART_00357,976,1,70.12,Other,Desktop,33
+CART_00358,977,2,102.25,High Shipping Cost,Mobile,23
+CART_00359,978,2,109.15,Price Too High,Desktop,18
+CART_00360,980,3,94.79,High Shipping Cost,Mobile,28
+CART_00361,983,1,89.99,Just Browsing,Desktop,6
+CART_00362,986,1,141.75,Just Browsing,Mobile,17
+CART_00363,996,3,194.0,Other,Desktop,38
+CART_00364,998,2,95.37,Price Too High,Desktop,16
+CART_00365,1007,4,116.56,High Shipping Cost,Mobile,26
+CART_00366,1010,3,104.58,High Shipping Cost,Mobile,10
+CART_00367,1014,4,188.23,Just Browsing,Desktop,37
+CART_00368,1016,2,229.71,Just Browsing,Tablet,11
+CART_00369,1018,1,219.0,High Shipping Cost,Mobile,24
+CART_00370,1024,2,107.57,High Shipping Cost,Tablet,35
+CART_00371,1025,2,246.37,High Shipping Cost,Tablet,40
+CART_00372,1026,4,194.67,Just Browsing,Mobile,36
+CART_00373,1028,1,204.68,High Shipping Cost,Mobile,22
+CART_00374,1031,4,211.59,Just Browsing,Desktop,35
+CART_00375,1032,3,213.75,Other,Mobile,38
+CART_00376,1033,4,122.82,Other,Desktop,8
+CART_00377,1034,4,90.99,Other,Desktop,34
+CART_00378,1036,3,176.0,Price Too High,Mobile,28
+CART_00379,1038,2,110.04,Just Browsing,Mobile,16
+CART_00380,1041,3,136.12,Other,Mobile,7
+CART_00381,1043,1,172.39,Just Browsing,Desktop,11
+CART_00382,1047,1,55.88,Technical Issue,Desktop,7
+CART_00383,1051,2,172.18,Other,Tablet,15
+CART_00384,1052,4,82.34,Just Browsing,Mobile,43
+CART_00385,1057,2,228.77,High Shipping Cost,Mobile,24
+CART_00386,1058,1,212.8,High Shipping Cost,Mobile,39
+CART_00387,1060,2,134.53,High Shipping Cost,Mobile,7
+CART_00388,1061,4,227.06,Other,Tablet,31
+CART_00389,1063,2,56.38,High Shipping Cost,Mobile,21
+CART_00390,1070,4,55.92,Just Browsing,Desktop,34
+CART_00391,1073,2,34.56,High Shipping Cost,Desktop,21
+CART_00392,1076,2,236.87,High Shipping Cost,Mobile,44
+CART_00393,1077,3,78.29,Technical Issue,Desktop,10
+CART_00394,1081,3,212.8,Other,Mobile,39
+CART_00395,1083,2,78.64,Just Browsing,Mobile,24
+CART_00396,1086,1,119.01,High Shipping Cost,Mobile,17
+CART_00397,1091,3,214.9,Price Too High,Tablet,1
+CART_00398,1097,3,71.11,Technical Issue,Desktop,5
+CART_00399,1098,4,144.13,Technical Issue,Desktop,15
+CART_00400,1103,1,105.78,High Shipping Cost,Tablet,31
+CART_00401,1112,2,207.02,Price Too High,Desktop,32
+CART_00402,1114,2,113.6,Just Browsing,Mobile,19
+CART_00403,1116,2,152.17,Other,Mobile,39
+CART_00404,1118,4,222.89,Technical Issue,Tablet,36
+CART_00405,1120,1,217.51,High Shipping Cost,Desktop,42
+CART_00406,1126,1,33.82,High Shipping Cost,Mobile,31
+CART_00407,1127,1,152.96,Just Browsing,Desktop,11
+CART_00408,1132,3,84.34,Price Too High,Mobile,22
+CART_00409,1137,2,55.38,Just Browsing,Tablet,34
+CART_00410,1140,1,149.6,High Shipping Cost,Mobile,36
+CART_00411,1141,3,245.86,Price Too High,Mobile,40
+CART_00412,1144,2,68.37,Just Browsing,Mobile,17
+CART_00413,1145,3,157.28,Technical Issue,Desktop,21
+CART_00414,1146,3,55.55,Price Too High,Tablet,40
+CART_00415,1148,3,143.57,Price Too High,Mobile,31
+CART_00416,1149,4,174.28,Technical Issue,Tablet,34
+CART_00417,1161,4,207.91,Price Too High,Mobile,36
+CART_00418,1162,1,164.3,Technical Issue,Desktop,40
+CART_00419,1164,3,89.05,High Shipping Cost,Mobile,11
+CART_00420,1170,4,226.97,Technical Issue,Desktop,39
+CART_00421,1174,1,132.18,Just Browsing,Desktop,41
+CART_00422,1175,1,137.8,Price Too High,Mobile,9
+CART_00423,1176,1,177.1,High Shipping Cost,Mobile,40
+CART_00424,1181,4,157.75,Technical Issue,Tablet,7
+CART_00425,1183,2,38.12,Price Too High,Mobile,8
+CART_00426,1188,1,102.41,Price Too High,Desktop,30
+CART_00427,1191,1,98.66,Just Browsing,Desktop,13
+CART_00428,1194,3,163.47,High Shipping Cost,Mobile,8
+CART_00429,1197,1,225.44,Technical Issue,Tablet,2
+CART_00430,1201,1,84.34,Just Browsing,Mobile,6
+CART_00431,1209,2,245.05,Other,Desktop,26
+CART_00432,1216,3,177.28,High Shipping Cost,Desktop,2
+CART_00433,1219,1,155.29,High Shipping Cost,Mobile,36
+CART_00434,1226,2,174.3,High Shipping Cost,Mobile,35
+CART_00435,1228,2,211.26,Just Browsing,Desktop,36
+CART_00436,1229,1,118.99,High Shipping Cost,Tablet,23
+CART_00437,1240,3,66.78,Technical Issue,Desktop,21
+CART_00438,1241,1,161.3,Other,Tablet,11
+CART_00439,1242,4,52.44,High Shipping Cost,Mobile,10
+CART_00440,1246,2,175.96,Just Browsing,Mobile,9
+CART_00441,1247,4,52.27,Just Browsing,Desktop,29
+CART_00442,1248,2,117.29,Just Browsing,Desktop,27
+CART_00443,1254,3,72.8,High Shipping Cost,Desktop,38
+CART_00444,1258,3,99.71,Just Browsing,Mobile,19
+CART_00445,1259,1,170.66,Other,Desktop,19
+CART_00446,1263,2,65.43,High Shipping Cost,Desktop,29
+CART_00447,1265,3,83.23,High Shipping Cost,Desktop,30
+CART_00448,1271,3,80.64,Other,Mobile,45
+CART_00449,1275,3,173.69,Just Browsing,Mobile,24
+CART_00450,1276,2,150.32,Other,Desktop,7
+CART_00451,1278,1,201.64,Price Too High,Tablet,20
+CART_00452,1279,2,113.94,Technical Issue,Desktop,24
+CART_00453,1283,1,155.87,High Shipping Cost,Mobile,13
+CART_00454,1284,4,104.69,Technical Issue,Desktop,43
+CART_00455,1286,2,100.13,High Shipping Cost,Mobile,18
+CART_00456,1287,1,61.2,Technical Issue,Desktop,1
+CART_00457,1294,3,213.94,Just Browsing,Mobile,37
+CART_00458,1300,2,222.55,High Shipping Cost,Mobile,9
+CART_00459,1302,3,168.21,Just Browsing,Tablet,28
+CART_00460,1304,1,52.4,High Shipping Cost,Mobile,8
+CART_00461,1317,3,97.4,Just Browsing,Mobile,36
+CART_00462,1318,4,243.22,High Shipping Cost,Mobile,15
+CART_00463,1320,3,141.87,Technical Issue,Desktop,10
+CART_00464,1326,2,77.62,Technical Issue,Desktop,37
+CART_00465,1327,4,233.17,Other,Desktop,7
+CART_00466,1332,1,141.04,Other,Mobile,26
+CART_00467,1334,3,198.7,Just Browsing,Tablet,5
+CART_00468,1337,3,126.46,Just Browsing,Desktop,18
+CART_00469,1341,1,170.9,Just Browsing,Desktop,17
+CART_00470,1342,2,170.33,High Shipping Cost,Mobile,19
+CART_00471,1343,1,188.02,High Shipping Cost,Tablet,38
+CART_00472,1344,1,88.09,High Shipping Cost,Mobile,29
+CART_00473,1346,1,185.9,High Shipping Cost,Mobile,39
+CART_00474,1347,3,92.53,High Shipping Cost,Desktop,11
+CART_00475,1349,3,203.62,Just Browsing,Tablet,4
+CART_00476,1354,3,68.2,Price Too High,Mobile,20
+CART_00477,1356,4,72.85,Other,Tablet,43
+CART_00478,1357,1,179.08,Just Browsing,Tablet,12
+CART_00479,1362,2,159.01,Technical Issue,Desktop,4
+CART_00480,1363,4,71.83,High Shipping Cost,Mobile,18
+CART_00481,1364,3,72.2,Other,Mobile,43
+CART_00482,1366,1,55.77,High Shipping Cost,Desktop,16
+CART_00483,1367,1,238.26,Price Too High,Mobile,6
+CART_00484,1368,1,219.58,Price Too High,Tablet,26
+CART_00485,1369,4,211.14,Price Too High,Desktop,25
+CART_00486,1381,1,72.7,Technical Issue,Desktop,27
+CART_00487,1385,1,41.8,High Shipping Cost,Mobile,26
+CART_00488,1389,4,79.79,Price Too High,Tablet,3
+CART_00489,1401,4,52.29,Just Browsing,Desktop,44
+CART_00490,1402,3,37.74,Other,Desktop,7
+CART_00491,1403,3,239.39,Price Too High,Desktop,18
+CART_00492,1405,1,211.04,Price Too High,Mobile,33
+CART_00493,1411,1,141.08,High Shipping Cost,Desktop,26
+CART_00494,1413,1,74.96,Price Too High,Desktop,9
+CART_00495,1415,4,137.25,High Shipping Cost,Mobile,12
+CART_00496,1416,1,102.22,Technical Issue,Tablet,35
+CART_00497,1418,2,179.31,Price Too High,Desktop,8
+CART_00498,1420,4,118.96,Price Too High,Tablet,18
+CART_00499,1425,2,238.33,Technical Issue,Tablet,35
+CART_00500,1426,2,94.05,Other,Tablet,27
+CART_00501,1428,1,45.81,Just Browsing,Tablet,36
+CART_00502,1429,3,103.21,Just Browsing,Mobile,45
+CART_00503,1430,2,110.48,High Shipping Cost,Tablet,10
+CART_00504,1432,3,78.73,Other,Mobile,10
+CART_00505,1433,3,89.92,Other,Mobile,8
+CART_00506,1434,1,236.81,High Shipping Cost,Mobile,24
+CART_00507,1435,3,129.11,Just Browsing,Desktop,41
+CART_00508,1436,1,32.15,Just Browsing,Desktop,25
+CART_00509,1440,2,142.79,Price Too High,Mobile,44
+CART_00510,1442,3,67.21,Just Browsing,Desktop,19
+CART_00511,1444,2,222.66,Just Browsing,Mobile,14
+CART_00512,1447,1,173.0,High Shipping Cost,Mobile,14
+CART_00513,1448,4,227.03,High Shipping Cost,Mobile,14
+CART_00514,1449,2,56.55,Price Too High,Tablet,29
+CART_00515,1454,4,220.85,Price Too High,Mobile,31
+CART_00516,1457,3,110.24,High Shipping Cost,Mobile,9
+CART_00517,1460,3,156.09,High Shipping Cost,Mobile,31
+CART_00518,1462,3,177.42,Other,Mobile,24
+CART_00519,1471,3,65.62,Just Browsing,Mobile,31
+CART_00520,1473,1,106.35,Just Browsing,Tablet,8
+CART_00521,1480,2,188.4,Price Too High,Mobile,1
+CART_00522,1484,1,170.25,Other,Desktop,15
+CART_00523,1487,1,108.4,Just Browsing,Desktop,21
+CART_00524,1488,2,124.96,Price Too High,Mobile,28
+CART_00525,1492,4,201.12,Other,Desktop,37
+CART_00526,1493,4,118.54,Other,Desktop,3
+CART_00527,1495,1,187.85,Just Browsing,Mobile,42
+CART_00528,1497,4,219.75,Price Too High,Mobile,33
+CART_00529,1500,2,85.85,Other,Tablet,28
+CART_00530,1502,3,152.27,High Shipping Cost,Mobile,43
+CART_00531,1503,2,61.85,Price Too High,Desktop,4
+CART_00532,1504,3,240.22,Other,Desktop,25
+CART_00533,1505,4,115.46,Price Too High,Desktop,1
+CART_00534,1508,4,147.19,High Shipping Cost,Mobile,39
+CART_00535,1510,4,141.46,High Shipping Cost,Mobile,35
+CART_00536,1513,3,48.06,Other,Tablet,23
+CART_00537,1523,4,103.06,High Shipping Cost,Desktop,29
+CART_00538,1533,1,120.07,Other,Mobile,40
+CART_00539,1534,4,227.15,High Shipping Cost,Desktop,13
+CART_00540,1535,3,184.07,High Shipping Cost,Mobile,17
+CART_00541,1536,3,84.22,High Shipping Cost,Desktop,20
+CART_00542,1539,1,71.32,Other,Desktop,3
+CART_00543,1543,4,230.06,High Shipping Cost,Mobile,33
+CART_00544,1545,2,42.46,Other,Tablet,2
+CART_00545,1551,2,41.08,Price Too High,Tablet,16
+CART_00546,1554,4,94.2,Price Too High,Tablet,19
+CART_00547,1556,1,92.75,High Shipping Cost,Desktop,27
+CART_00548,1559,3,179.63,Other,Mobile,3
+CART_00549,1562,1,186.4,Technical Issue,Desktop,5
+CART_00550,1565,1,211.02,Just Browsing,Mobile,17
+CART_00551,1569,3,130.16,Price Too High,Mobile,5
+CART_00552,1573,4,207.03,High Shipping Cost,Mobile,10
+CART_00553,1581,3,75.05,Other,Desktop,22
+CART_00554,1582,4,166.25,Other,Desktop,43
+CART_00555,1584,2,112.47,High Shipping Cost,Mobile,23
+CART_00556,1587,1,122.33,High Shipping Cost,Mobile,39
+CART_00557,1590,4,30.82,Other,Mobile,32
+CART_00558,1595,3,195.25,Other,Mobile,2
+CART_00559,1597,1,178.47,Just Browsing,Desktop,2
+CART_00560,1598,3,226.96,Price Too High,Desktop,16
+CART_00561,1600,3,184.0,Just Browsing,Tablet,33
+CART_00562,1603,1,87.88,Price Too High,Desktop,9
+CART_00563,1604,4,61.03,Technical Issue,Desktop,38
+CART_00564,1607,4,153.33,Technical Issue,Desktop,20
+CART_00565,1613,3,247.46,Other,Mobile,30
+CART_00566,1619,4,167.46,Just Browsing,Mobile,21
+CART_00567,1624,4,121.6,Other,Tablet,9
+CART_00568,1626,4,172.95,Just Browsing,Mobile,34
+CART_00569,1628,1,76.12,Just Browsing,Mobile,22
+CART_00570,1630,4,60.88,High Shipping Cost,Mobile,11
+CART_00571,1631,3,32.66,High Shipping Cost,Mobile,36
+CART_00572,1634,3,82.92,Just Browsing,Mobile,8
+CART_00573,1646,1,215.89,High Shipping Cost,Mobile,6
+CART_00574,1647,2,164.77,Price Too High,Desktop,10
+CART_00575,1650,3,37.37,High Shipping Cost,Mobile,36
+CART_00576,1651,4,73.98,High Shipping Cost,Desktop,29
+CART_00577,1656,2,45.57,Technical Issue,Tablet,33
+CART_00578,1657,1,249.71,Price Too High,Mobile,24
+CART_00579,1660,2,65.28,High Shipping Cost,Mobile,14
+CART_00580,1662,1,83.8,High Shipping Cost,Mobile,30
+CART_00581,1665,2,92.69,High Shipping Cost,Tablet,43
+CART_00582,1668,1,142.42,Just Browsing,Tablet,25
+CART_00583,1676,4,43.36,Just Browsing,Desktop,7
+CART_00584,1679,4,139.36,Just Browsing,Desktop,41
+CART_00585,1680,1,126.93,Price Too High,Mobile,18
+CART_00586,1683,3,199.99,High Shipping Cost,Mobile,34
+CART_00587,1689,3,147.69,High Shipping Cost,Mobile,16
+CART_00588,1695,3,90.33,High Shipping Cost,Desktop,28
+CART_00589,1696,2,249.85,Other,Desktop,44
+CART_00590,1701,3,219.02,High Shipping Cost,Tablet,6
+CART_00591,1711,1,174.91,Other,Desktop,40
+CART_00592,1712,1,178.94,Price Too High,Desktop,1
+CART_00593,1713,3,166.32,Price Too High,Mobile,15
+CART_00594,1716,4,155.2,Price Too High,Tablet,23
+CART_00595,1722,4,221.21,Technical Issue,Desktop,5
+CART_00596,1723,4,41.25,Just Browsing,Desktop,14
+CART_00597,1727,2,58.25,High Shipping Cost,Mobile,2
+CART_00598,1728,1,192.59,Technical Issue,Tablet,15
+CART_00599,1730,3,131.4,High Shipping Cost,Mobile,30
+CART_00600,1731,2,170.64,High Shipping Cost,Desktop,20
+CART_00601,1738,2,210.96,Technical Issue,Desktop,38
+CART_00602,1739,3,48.71,Price Too High,Desktop,19
+CART_00603,1744,4,234.88,Other,Desktop,15
+CART_00604,1749,1,62.03,Just Browsing,Mobile,44
+CART_00605,1755,1,52.48,Price Too High,Tablet,28
+CART_00606,1756,4,126.36,Other,Mobile,14
+CART_00607,1757,2,180.76,Price Too High,Tablet,45
+CART_00608,1759,4,180.91,Other,Desktop,28
+CART_00609,1760,4,43.99,Other,Mobile,41
+CART_00610,1763,2,236.86,High Shipping Cost,Desktop,30
+CART_00611,1769,1,239.53,Price Too High,Desktop,2
+CART_00612,1775,2,200.93,Price Too High,Mobile,17
+CART_00613,1778,2,99.43,Other,Mobile,27
+CART_00614,1780,1,53.14,Price Too High,Mobile,16
+CART_00615,1786,4,103.12,Technical Issue,Tablet,27
+CART_00616,1793,4,176.95,Just Browsing,Mobile,21
+CART_00617,1794,3,118.15,Other,Mobile,45
+CART_00618,1798,3,70.86,Just Browsing,Desktop,12
+CART_00619,1799,4,123.26,High Shipping Cost,Desktop,18
+CART_00620,1801,1,132.85,Price Too High,Tablet,39
+CART_00621,1810,4,91.65,High Shipping Cost,Desktop,30
+CART_00622,1812,1,231.49,High Shipping Cost,Mobile,18
+CART_00623,1813,2,237.01,Technical Issue,Desktop,24
+CART_00624,1819,4,141.39,Price Too High,Mobile,2
+CART_00625,1820,1,45.09,Price Too High,Desktop,41
+CART_00626,1821,3,130.33,Other,Desktop,21
+CART_00627,1822,3,238.78,Other,Desktop,29
+CART_00628,1824,4,56.17,Price Too High,Mobile,11
+CART_00629,1827,3,79.41,Technical Issue,Desktop,19
+CART_00630,1829,1,36.98,High Shipping Cost,Mobile,15
+CART_00631,1834,4,134.86,Price Too High,Mobile,28
+CART_00632,1838,3,48.7,High Shipping Cost,Desktop,5
+CART_00633,1840,4,92.41,Just Browsing,Desktop,22
+CART_00634,1855,2,83.53,Other,Tablet,17
+CART_00635,1857,4,189.84,Other,Mobile,35
+CART_00636,1859,1,57.6,Just Browsing,Mobile,26
+CART_00637,1863,2,194.33,High Shipping Cost,Desktop,22
+CART_00638,1868,3,184.41,Price Too High,Desktop,39
+CART_00639,1869,2,44.84,Just Browsing,Desktop,15
+CART_00640,1879,3,207.58,High Shipping Cost,Desktop,24
+CART_00641,1880,1,72.16,Price Too High,Mobile,7
+CART_00642,1881,2,133.87,Other,Mobile,14
+CART_00643,1889,1,140.4,High Shipping Cost,Mobile,17
+CART_00644,1894,4,34.78,Other,Desktop,28
+CART_00645,1896,3,171.54,High Shipping Cost,Mobile,18
+CART_00646,1897,3,97.65,Other,Mobile,31
+CART_00647,1898,2,159.68,Price Too High,Desktop,2
+CART_00648,1899,1,141.16,Just Browsing,Desktop,45
+CART_00649,1903,1,86.99,Other,Mobile,38
+CART_00650,1908,3,118.66,Technical Issue,Desktop,18
+CART_00651,1911,3,153.82,Just Browsing,Desktop,5
+CART_00652,1914,2,217.77,Other,Desktop,31
+CART_00653,1917,3,181.47,Price Too High,Tablet,14
+CART_00654,1919,4,237.25,High Shipping Cost,Desktop,8
+CART_00655,1922,1,128.49,Price Too High,Desktop,32
+CART_00656,1926,3,131.42,High Shipping Cost,Desktop,38
+CART_00657,1928,4,192.91,Other,Mobile,30
+CART_00658,1929,2,245.46,High Shipping Cost,Mobile,28
+CART_00659,1931,1,188.76,Price Too High,Mobile,30
+CART_00660,1938,1,89.73,Price Too High,Mobile,1
+CART_00661,1939,4,164.09,High Shipping Cost,Mobile,44
+CART_00662,1940,1,86.04,Price Too High,Desktop,34
+CART_00663,1944,1,51.62,Price Too High,Mobile,29
+CART_00664,1946,3,204.84,High Shipping Cost,Mobile,44
+CART_00665,1950,1,86.28,Other,Mobile,27
+CART_00666,1951,2,192.16,Price Too High,Desktop,25
+CART_00667,1952,2,85.09,High Shipping Cost,Desktop,3
+CART_00668,1955,1,189.27,High Shipping Cost,Tablet,4
+CART_00669,1959,3,108.78,High Shipping Cost,Mobile,20
+CART_00670,1961,1,205.29,Other,Desktop,12
+CART_00671,1964,4,247.52,Technical Issue,Desktop,45
+CART_00672,1965,1,176.57,High Shipping Cost,Mobile,37
+CART_00673,1966,3,39.45,High Shipping Cost,Mobile,30
+CART_00674,1975,1,45.96,Just Browsing,Desktop,17
+CART_00675,1981,4,206.75,Price Too High,Desktop,10
+CART_00676,1985,4,216.19,Technical Issue,Desktop,20
+CART_00677,1990,4,62.91,High Shipping Cost,Mobile,40
+CART_00678,1993,2,43.91,Price Too High,Mobile,29
+CART_00679,1997,4,85.77,Other,Tablet,39
+CART_00680,2000,1,224.23,Technical Issue,Desktop,17
+CART_00681,2004,4,120.69,Just Browsing,Desktop,41
+CART_00682,2007,1,240.48,High Shipping Cost,Mobile,33
+CART_00683,2008,4,148.06,Price Too High,Mobile,44
+CART_00684,2009,1,245.68,High Shipping Cost,Desktop,16
+CART_00685,2010,1,72.08,High Shipping Cost,Mobile,40
+CART_00686,2012,2,108.65,High Shipping Cost,Desktop,22
+CART_00687,2015,1,186.44,High Shipping Cost,Mobile,42
+CART_00688,2020,2,244.97,High Shipping Cost,Mobile,39
+CART_00689,2021,1,177.48,High Shipping Cost,Tablet,20
+CART_00690,2022,3,237.79,High Shipping Cost,Mobile,26
+CART_00691,2023,4,154.19,Just Browsing,Tablet,21
+CART_00692,2026,3,52.32,Other,Desktop,32
+CART_00693,2027,2,162.69,Just Browsing,Mobile,35
+CART_00694,2029,3,243.92,Other,Desktop,29
+CART_00695,2036,1,157.05,Technical Issue,Desktop,6
+CART_00696,2037,4,248.25,Price Too High,Desktop,7
+CART_00697,2041,3,213.85,Other,Tablet,4
+CART_00698,2043,3,139.3,High Shipping Cost,Mobile,45
+CART_00699,2045,1,119.47,Other,Tablet,43
+CART_00700,2051,3,150.37,High Shipping Cost,Mobile,5
+CART_00701,2052,2,158.91,High Shipping Cost,Mobile,43
+CART_00702,2053,2,201.38,Price Too High,Desktop,34
+CART_00703,2057,2,224.78,Price Too High,Mobile,27
+CART_00704,2064,1,246.9,Just Browsing,Mobile,8
+CART_00705,2067,1,65.37,Price Too High,Desktop,3
+CART_00706,2069,4,174.32,High Shipping Cost,Desktop,45
+CART_00707,2082,1,168.86,Just Browsing,Desktop,25
+CART_00708,2085,2,113.1,Just Browsing,Mobile,32
+CART_00709,2086,4,124.16,Price Too High,Mobile,16
+CART_00710,2089,1,131.94,Other,Mobile,5
+CART_00711,2092,3,179.31,High Shipping Cost,Tablet,17
+CART_00712,2094,1,186.03,High Shipping Cost,Mobile,9
+CART_00713,2098,4,183.35,Other,Mobile,32
+CART_00714,2102,2,74.1,Other,Mobile,31
+CART_00715,2105,1,193.79,Price Too High,Mobile,44
+CART_00716,2108,3,126.91,High Shipping Cost,Tablet,41
+CART_00717,2110,2,97.13,Other,Tablet,17
+CART_00718,2114,1,213.88,Other,Tablet,28
+CART_00719,2115,2,117.76,Just Browsing,Mobile,13
+CART_00720,2122,4,164.81,Other,Mobile,23
+CART_00721,2132,1,106.52,Other,Desktop,43
+CART_00722,2133,4,48.95,High Shipping Cost,Mobile,7
+CART_00723,2138,4,182.82,Just Browsing,Mobile,37
+CART_00724,2141,3,230.26,Just Browsing,Mobile,17
+CART_00725,2144,2,84.31,Technical Issue,Desktop,2
+CART_00726,2146,2,138.46,High Shipping Cost,Mobile,8
+CART_00727,2148,2,62.57,Other,Desktop,30
+CART_00728,2149,4,111.33,Price Too High,Mobile,9
+CART_00729,2158,3,84.49,Technical Issue,Desktop,29
+CART_00730,2164,3,40.12,Just Browsing,Mobile,45
+CART_00731,2165,2,118.26,Just Browsing,Mobile,43
+CART_00732,2166,3,190.76,Price Too High,Tablet,28
+CART_00733,2168,1,65.62,Other,Desktop,41
+CART_00734,2174,4,122.24,Technical Issue,Tablet,18
+CART_00735,2177,1,57.71,Price Too High,Desktop,37
+CART_00736,2178,1,192.37,Price Too High,Mobile,37
+CART_00737,2179,2,57.47,High Shipping Cost,Mobile,17
+CART_00738,2182,2,82.96,Technical Issue,Desktop,22
+CART_00739,2187,3,145.49,Just Browsing,Tablet,3
+CART_00740,2188,1,164.62,Price Too High,Mobile,43
+CART_00741,2190,2,50.42,Price Too High,Mobile,10
+CART_00742,2191,1,146.6,Other,Desktop,5
+CART_00743,2198,4,64.07,Technical Issue,Tablet,10
+CART_00744,2199,2,155.18,Just Browsing,Mobile,41
+CART_00745,2200,1,107.77,Other,Desktop,43
+CART_00746,2201,2,63.28,Technical Issue,Tablet,36
+CART_00747,2202,1,164.1,Just Browsing,Desktop,21
+CART_00748,2207,3,234.72,Other,Desktop,37
+CART_00749,2208,3,108.6,Technical Issue,Tablet,9
+CART_00750,2212,4,67.11,Other,Mobile,26
+CART_00751,2213,4,53.81,High Shipping Cost,Desktop,32
+CART_00752,2214,4,218.72,High Shipping Cost,Tablet,9
+CART_00753,2215,3,44.27,Other,Mobile,13
+CART_00754,2217,1,153.87,High Shipping Cost,Mobile,30
+CART_00755,2221,2,127.09,High Shipping Cost,Mobile,41
+CART_00756,2226,3,162.88,High Shipping Cost,Mobile,21
+CART_00757,2228,2,180.28,Other,Mobile,17
+CART_00758,2234,3,241.14,Just Browsing,Tablet,36
+CART_00759,2237,4,176.04,Price Too High,Tablet,12
+CART_00760,2243,4,157.06,Price Too High,Mobile,14
+CART_00761,2245,3,215.94,Price Too High,Tablet,37
+CART_00762,2250,2,61.64,Price Too High,Desktop,5
+CART_00763,2251,4,113.36,Technical Issue,Desktop,22
+CART_00764,2254,4,195.62,Price Too High,Mobile,40
+CART_00765,2255,4,150.93,Price Too High,Tablet,29
+CART_00766,2260,4,210.19,Price Too High,Mobile,33
+CART_00767,2265,2,88.52,Price Too High,Mobile,23
+CART_00768,2269,2,196.06,Other,Desktop,40
+CART_00769,2271,4,40.75,High Shipping Cost,Desktop,20
+CART_00770,2277,2,69.78,Price Too High,Mobile,30
+CART_00771,2280,3,158.29,Just Browsing,Desktop,19
+CART_00772,2281,1,97.55,Technical Issue,Desktop,23
+CART_00773,2282,2,169.98,Price Too High,Desktop,20
+CART_00774,2285,1,40.43,High Shipping Cost,Desktop,37
+CART_00775,2286,4,187.23,Other,Desktop,42
+CART_00776,2289,4,155.71,Just Browsing,Mobile,43
+CART_00777,2291,4,186.49,High Shipping Cost,Mobile,31
+CART_00778,2293,4,194.99,High Shipping Cost,Desktop,18
+CART_00779,2294,3,140.41,High Shipping Cost,Mobile,23
+CART_00780,2302,1,194.9,High Shipping Cost,Mobile,37
+CART_00781,2303,1,249.33,Other,Mobile,39
+CART_00782,2309,3,227.2,Technical Issue,Desktop,37
+CART_00783,2312,3,68.86,High Shipping Cost,Tablet,5
+CART_00784,2313,3,48.28,Price Too High,Mobile,28
+CART_00785,2317,3,138.22,Just Browsing,Desktop,10
+CART_00786,2320,4,221.62,High Shipping Cost,Mobile,7
+CART_00787,2326,2,120.03,Other,Tablet,28
+CART_00788,2329,3,177.57,Just Browsing,Mobile,39
+CART_00789,2331,2,45.67,Just Browsing,Desktop,6
+CART_00790,2332,3,144.32,High Shipping Cost,Desktop,34
+CART_00791,2333,3,59.71,High Shipping Cost,Mobile,43
+CART_00792,2334,1,215.88,Price Too High,Mobile,3
+CART_00793,2337,2,42.13,Other,Mobile,2
+CART_00794,2338,3,83.04,Technical Issue,Desktop,31
+CART_00795,2339,3,66.79,High Shipping Cost,Desktop,31
+CART_00796,2340,1,190.78,Price Too High,Mobile,28
+CART_00797,2342,4,225.09,Just Browsing,Desktop,18
+CART_00798,2343,2,80.51,Price Too High,Desktop,9
+CART_00799,2345,3,108.56,Technical Issue,Tablet,17
+CART_00800,2346,2,211.35,Other,Mobile,10
+CART_00801,2348,4,191.52,Technical Issue,Desktop,14
+CART_00802,2349,2,74.38,High Shipping Cost,Mobile,28
+CART_00803,2350,2,52.58,High Shipping Cost,Desktop,24
+CART_00804,2354,4,222.59,High Shipping Cost,Tablet,23
+CART_00805,2356,4,78.34,High Shipping Cost,Desktop,37
+CART_00806,2361,2,171.26,Other,Desktop,21
+CART_00807,2362,4,239.08,High Shipping Cost,Mobile,30
+CART_00808,2366,4,85.35,High Shipping Cost,Desktop,17
+CART_00809,2368,2,77.59,Just Browsing,Mobile,34
+CART_00810,2370,1,91.51,High Shipping Cost,Mobile,42
+CART_00811,2374,2,51.35,Price Too High,Mobile,40
+CART_00812,2377,4,107.03,High Shipping Cost,Desktop,27
+CART_00813,2379,2,68.61,Other,Mobile,31
+CART_00814,2381,3,242.04,High Shipping Cost,Mobile,28
+CART_00815,2383,4,221.81,Other,Tablet,14
+CART_00816,2388,4,103.46,Just Browsing,Mobile,30
+CART_00817,2395,2,75.77,Just Browsing,Tablet,4
+CART_00818,2401,1,195.98,Just Browsing,Desktop,22
+CART_00819,2405,2,150.74,Other,Mobile,36
+CART_00820,2406,1,109.05,Price Too High,Mobile,28
+CART_00821,2407,4,143.16,Technical Issue,Desktop,11
+CART_00822,2408,2,86.69,High Shipping Cost,Desktop,44
+CART_00823,2409,2,83.72,Just Browsing,Tablet,9
+CART_00824,2412,4,224.05,Just Browsing,Desktop,4
+CART_00825,2415,1,32.28,Other,Mobile,36
+CART_00826,2416,4,231.31,Other,Tablet,4
+CART_00827,2418,3,90.67,Just Browsing,Desktop,34
+CART_00828,2419,4,228.85,High Shipping Cost,Desktop,13
+CART_00829,2420,2,212.96,Other,Desktop,23
+CART_00830,2421,4,101.41,Just Browsing,Desktop,15
+CART_00831,2424,4,151.35,Just Browsing,Mobile,21
+CART_00832,2431,2,149.52,Price Too High,Mobile,37
+CART_00833,2433,3,39.66,High Shipping Cost,Tablet,11
+CART_00834,2434,4,120.24,Technical Issue,Desktop,32
+CART_00835,2436,3,120.18,Technical Issue,Desktop,2
+CART_00836,2438,1,32.47,Technical Issue,Desktop,37
+CART_00837,2439,1,84.05,High Shipping Cost,Mobile,20
+CART_00838,2442,1,168.69,High Shipping Cost,Mobile,28
+CART_00839,2445,2,89.0,High Shipping Cost,Mobile,18
+CART_00840,2454,3,42.17,Other,Desktop,7
+CART_00841,2455,2,144.58,High Shipping Cost,Mobile,31
+CART_00842,2461,3,66.71,Technical Issue,Tablet,18
+CART_00843,2462,3,49.16,Just Browsing,Tablet,41
+CART_00844,2472,3,124.27,Technical Issue,Tablet,26
+CART_00845,2473,3,120.22,Price Too High,Tablet,45
+CART_00846,2476,1,115.45,High Shipping Cost,Tablet,17
+CART_00847,2478,2,112.97,Price Too High,Mobile,4
+CART_00848,2479,2,86.38,Price Too High,Desktop,29
+CART_00849,2486,3,49.98,Other,Tablet,3
+CART_00850,2490,3,156.91,Technical Issue,Desktop,10
+CART_00851,2491,4,48.72,Technical Issue,Desktop,23
+CART_00852,2495,2,60.63,Just Browsing,Mobile,12
+CART_00853,2498,4,85.83,Technical Issue,Tablet,28
+CART_00854,2499,1,235.7,Price Too High,Tablet,44
+CART_00855,2500,4,60.52,Price Too High,Mobile,9
+CART_00856,2508,4,226.42,Price Too High,Mobile,21
+CART_00857,2509,3,203.1,High Shipping Cost,Mobile,31
+CART_00858,2511,3,157.19,High Shipping Cost,Desktop,7
+CART_00859,2512,4,119.89,Technical Issue,Tablet,41
+CART_00860,2513,3,69.75,High Shipping Cost,Mobile,15
+CART_00861,2515,2,75.71,High Shipping Cost,Mobile,44
+CART_00862,2518,2,108.49,Other,Mobile,11
+CART_00863,2522,2,133.28,Technical Issue,Desktop,6
+CART_00864,2523,1,211.99,Other,Desktop,44
+CART_00865,2525,1,243.4,High Shipping Cost,Mobile,26
+CART_00866,2526,3,107.69,High Shipping Cost,Desktop,2
+CART_00867,2527,4,201.17,Other,Desktop,33
+CART_00868,2530,2,173.41,Just Browsing,Tablet,4
+CART_00869,2532,1,75.71,High Shipping Cost,Mobile,35
+CART_00870,2536,4,111.04,High Shipping Cost,Mobile,22
+CART_00871,2542,2,147.95,High Shipping Cost,Mobile,42
+CART_00872,2543,2,221.49,Price Too High,Mobile,33
+CART_00873,2546,3,134.97,High Shipping Cost,Mobile,20
+CART_00874,2548,2,163.82,Price Too High,Mobile,2
+CART_00875,2549,1,73.01,Other,Mobile,44
+CART_00876,2550,2,167.73,Price Too High,Desktop,30
+CART_00877,2558,4,102.72,High Shipping Cost,Desktop,6
+CART_00878,2559,4,63.1,Technical Issue,Desktop,16
+CART_00879,2560,2,67.26,High Shipping Cost,Mobile,31
+CART_00880,2562,1,244.22,Price Too High,Mobile,16
+CART_00881,2565,2,80.06,High Shipping Cost,Mobile,23
+CART_00882,2568,3,232.04,Other,Desktop,10
+CART_00883,2580,2,152.7,Price Too High,Mobile,6
+CART_00884,2581,3,108.28,Technical Issue,Desktop,31
+CART_00885,2582,4,54.08,Technical Issue,Tablet,7
+CART_00886,2585,1,49.53,Other,Mobile,16
+CART_00887,2587,3,247.85,Technical Issue,Desktop,24
+CART_00888,2590,4,47.49,Other,Mobile,27
+CART_00889,2593,1,97.17,Price Too High,Mobile,9
+CART_00890,2595,4,110.67,Just Browsing,Desktop,7
+CART_00891,2597,3,209.84,High Shipping Cost,Desktop,29
+CART_00892,2601,4,140.86,Just Browsing,Mobile,20
+CART_00893,2603,1,120.03,High Shipping Cost,Mobile,29
+CART_00894,2604,2,89.02,High Shipping Cost,Desktop,18
+CART_00895,2608,2,96.91,Price Too High,Desktop,21
+CART_00896,2609,2,36.02,Just Browsing,Mobile,37
+CART_00897,2614,4,225.47,Other,Mobile,37
+CART_00898,2619,3,183.69,Price Too High,Mobile,33
+CART_00899,2620,2,156.39,Just Browsing,Desktop,45
+CART_00900,2625,2,175.24,Price Too High,Desktop,33
+CART_00901,2626,1,59.84,High Shipping Cost,Tablet,13
+CART_00902,2627,2,158.3,Technical Issue,Desktop,14
+CART_00903,2629,2,141.39,Other,Mobile,30
+CART_00904,2630,4,148.86,Technical Issue,Desktop,32
+CART_00905,2632,1,243.68,High Shipping Cost,Mobile,21
+CART_00906,2636,2,106.49,High Shipping Cost,Mobile,31
+CART_00907,2638,2,83.66,Just Browsing,Mobile,38
+CART_00908,2642,1,247.55,Price Too High,Desktop,42
+CART_00909,2643,4,146.41,High Shipping Cost,Mobile,33
+CART_00910,2648,2,30.44,Price Too High,Mobile,17
+CART_00911,2650,4,93.87,High Shipping Cost,Mobile,39
+CART_00912,2655,4,118.95,Other,Mobile,7
+CART_00913,2657,2,116.13,Other,Mobile,19
+CART_00914,2658,2,83.35,Technical Issue,Tablet,44
+CART_00915,2659,2,94.44,High Shipping Cost,Desktop,38
+CART_00916,2664,4,131.83,Just Browsing,Mobile,3
+CART_00917,2668,4,113.13,High Shipping Cost,Mobile,1
+CART_00918,2671,4,37.56,Price Too High,Mobile,36
+CART_00919,2674,2,147.7,High Shipping Cost,Desktop,19
+CART_00920,2678,1,125.49,Just Browsing,Desktop,2
+CART_00921,2679,3,192.77,Just Browsing,Desktop,23
+CART_00922,2684,3,188.21,Technical Issue,Desktop,25
+CART_00923,2689,2,41.28,Price Too High,Mobile,1
+CART_00924,2691,1,62.51,Price Too High,Mobile,7
+CART_00925,2693,1,76.85,Other,Desktop,10
+CART_00926,2699,2,44.01,Price Too High,Mobile,6
+CART_00927,2700,1,153.3,High Shipping Cost,Mobile,27
+CART_00928,2705,4,169.78,High Shipping Cost,Mobile,11
+CART_00929,2711,2,72.77,Other,Mobile,37
+CART_00930,2712,2,69.24,High Shipping Cost,Mobile,27
+CART_00931,2715,3,112.24,Technical Issue,Desktop,15
+CART_00932,2716,2,133.9,Other,Desktop,14
+CART_00933,2720,4,161.28,Price Too High,Desktop,40
+CART_00934,2724,4,177.85,Other,Mobile,16
+CART_00935,2726,4,147.33,Price Too High,Desktop,40
+CART_00936,2729,1,151.43,Just Browsing,Desktop,22
+CART_00937,2735,1,248.99,Just Browsing,Tablet,45
+CART_00938,2738,4,154.53,Just Browsing,Mobile,21
+CART_00939,2740,2,150.36,Other,Desktop,38
+CART_00940,2743,2,214.78,Just Browsing,Desktop,3
+CART_00941,2745,3,192.57,High Shipping Cost,Mobile,17
+CART_00942,2746,2,143.81,Price Too High,Mobile,24
+CART_00943,2749,3,202.2,Other,Mobile,8
+CART_00944,2750,3,191.72,High Shipping Cost,Mobile,33
+CART_00945,2751,4,56.42,Price Too High,Desktop,32
+CART_00946,2752,1,210.17,Other,Mobile,19
+CART_00947,2753,1,202.96,Other,Desktop,38
+CART_00948,2761,2,159.8,High Shipping Cost,Desktop,7
+CART_00949,2768,1,147.26,Other,Desktop,17
+CART_00950,2773,4,172.38,High Shipping Cost,Mobile,9
+CART_00951,2775,3,151.68,Other,Mobile,35
+CART_00952,2784,1,145.34,High Shipping Cost,Mobile,1
+CART_00953,2787,4,177.71,High Shipping Cost,Tablet,24
+CART_00954,2788,2,138.99,Technical Issue,Desktop,16
+CART_00955,2792,4,51.87,Just Browsing,Tablet,3
+CART_00956,2793,4,45.84,Other,Mobile,34
+CART_00957,2801,2,197.9,Just Browsing,Mobile,45
+CART_00958,2804,2,218.52,Just Browsing,Tablet,13
+CART_00959,2805,3,236.36,High Shipping Cost,Mobile,19
+CART_00960,2806,1,84.97,High Shipping Cost,Tablet,11
+CART_00961,2810,4,126.17,Price Too High,Mobile,16
+CART_00962,2812,1,180.34,High Shipping Cost,Mobile,5
+CART_00963,2816,4,207.31,High Shipping Cost,Mobile,24
+CART_00964,2823,2,34.98,High Shipping Cost,Mobile,31
+CART_00965,2825,1,208.54,Other,Desktop,15
+CART_00966,2826,3,238.95,Other,Mobile,19
+CART_00967,2827,2,175.59,Price Too High,Mobile,34
+CART_00968,2835,4,115.58,Price Too High,Desktop,11
+CART_00969,2841,1,115.84,Price Too High,Desktop,10
+CART_00970,2846,2,128.19,Other,Desktop,38
+CART_00971,2847,3,41.49,Just Browsing,Mobile,18
+CART_00972,2849,4,233.32,Price Too High,Mobile,31
+CART_00973,2850,2,224.34,Other,Desktop,4
+CART_00974,2857,2,149.47,Other,Desktop,20
+CART_00975,2860,3,223.16,High Shipping Cost,Desktop,38
+CART_00976,2863,3,138.55,Price Too High,Tablet,14
+CART_00977,2865,4,86.63,Price Too High,Mobile,41
+CART_00978,2866,4,153.27,High Shipping Cost,Mobile,10
+CART_00979,2870,1,192.88,Other,Desktop,31
+CART_00980,2871,1,226.65,Just Browsing,Tablet,21
+CART_00981,2872,1,102.45,Just Browsing,Tablet,12
+CART_00982,2873,2,45.57,Technical Issue,Tablet,9
+CART_00983,2874,3,62.23,High Shipping Cost,Mobile,44
+CART_00984,2875,2,114.46,Other,Mobile,31
+CART_00985,2877,4,100.5,Price Too High,Mobile,4
+CART_00986,2881,1,44.2,Just Browsing,Desktop,34
+CART_00987,2887,1,129.1,Just Browsing,Mobile,32
+CART_00988,2888,1,166.46,High Shipping Cost,Mobile,22
+CART_00989,2889,4,128.74,Other,Mobile,8
+CART_00990,2891,2,168.29,Price Too High,Desktop,42
+CART_00991,2893,1,232.86,Price Too High,Mobile,5
+CART_00992,2894,1,205.47,Just Browsing,Mobile,4
+CART_00993,2897,4,97.44,Just Browsing,Mobile,19
+CART_00994,2902,2,133.36,Price Too High,Mobile,5
+CART_00995,2904,4,222.99,High Shipping Cost,Mobile,27
+CART_00996,2906,2,96.86,Technical Issue,Desktop,28
+CART_00997,2907,1,205.2,Price Too High,Tablet,45
+CART_00998,2908,3,65.84,Technical Issue,Desktop,30
+CART_00999,2909,3,152.11,Just Browsing,Desktop,27
+CART_01000,2911,1,175.68,Just Browsing,Desktop,5
+CART_01001,2914,3,74.44,Just Browsing,Tablet,41
+CART_01002,2915,1,71.49,Other,Desktop,1
+CART_01003,2918,4,35.0,High Shipping Cost,Mobile,25
+CART_01004,2923,4,104.68,High Shipping Cost,Mobile,28
+CART_01005,2926,1,77.19,Price Too High,Tablet,27
+CART_01006,2928,3,30.0,Other,Tablet,26
+CART_01007,2931,4,65.35,Other,Mobile,23
+CART_01008,2932,2,83.99,Price Too High,Mobile,5
+CART_01009,2935,1,38.14,High Shipping Cost,Mobile,12
+CART_01010,2936,3,63.16,Technical Issue,Desktop,32
+CART_01011,2944,3,44.0,High Shipping Cost,Mobile,3
+CART_01012,2949,4,87.49,Other,Desktop,32
+CART_01013,2952,4,234.21,High Shipping Cost,Mobile,14
+CART_01014,2957,3,82.67,Just Browsing,Mobile,17
+CART_01015,2958,3,187.39,Technical Issue,Tablet,1
+CART_01016,2965,4,43.79,Price Too High,Tablet,33
+CART_01017,2966,4,144.93,High Shipping Cost,Mobile,6
+CART_01018,2969,4,239.1,Technical Issue,Tablet,39
+CART_01019,2975,4,72.36,Technical Issue,Desktop,40
+CART_01020,2976,2,127.93,Just Browsing,Desktop,9
+CART_01021,2977,3,55.45,High Shipping Cost,Mobile,19
+CART_01022,2978,2,194.36,Just Browsing,Desktop,21
+CART_01023,2979,3,182.3,Just Browsing,Mobile,12
+CART_01024,2983,1,144.76,Just Browsing,Mobile,26
+CART_01025,2984,2,143.59,High Shipping Cost,Mobile,7
+CART_01026,2988,2,240.88,Price Too High,Mobile,25
+CART_01027,2993,2,134.19,Other,Mobile,1
+CART_01028,2995,4,230.08,Other,Desktop,42
+CART_01029,2996,1,190.59,Price Too High,Tablet,5
+CART_01030,3000,4,40.66,Just Browsing,Tablet,3
+CART_01031,3001,1,153.54,Price Too High,Mobile,15
+CART_01032,3003,4,89.63,High Shipping Cost,Desktop,44
+CART_01033,3008,4,87.0,Just Browsing,Desktop,34
+CART_01034,3009,1,113.88,Other,Mobile,36
+CART_01035,3012,2,173.39,Other,Desktop,33
+CART_01036,3015,2,239.37,Just Browsing,Mobile,12
+CART_01037,3017,1,94.36,Just Browsing,Mobile,8
+CART_01038,3019,3,207.66,Other,Desktop,24
+CART_01039,3020,3,135.09,Price Too High,Mobile,7
+CART_01040,3022,2,144.53,High Shipping Cost,Mobile,34
+CART_01041,3023,3,124.28,High Shipping Cost,Mobile,4
+CART_01042,3027,1,112.82,Other,Tablet,39
+CART_01043,3028,3,85.22,Just Browsing,Mobile,43
+CART_01044,3029,2,209.91,Price Too High,Mobile,21
+CART_01045,3031,3,231.07,Just Browsing,Desktop,27
+CART_01046,3032,3,156.99,High Shipping Cost,Mobile,12
+CART_01047,3033,1,181.91,Price Too High,Mobile,21
+CART_01048,3038,2,104.98,Technical Issue,Tablet,28
+CART_01049,3039,1,72.69,Technical Issue,Desktop,25
+CART_01050,3041,2,120.02,High Shipping Cost,Desktop,8
+CART_01051,3044,2,99.79,Price Too High,Mobile,14
+CART_01052,3048,2,176.03,Technical Issue,Desktop,9
+CART_01053,3049,3,70.0,Just Browsing,Desktop,39
+CART_01054,3053,1,30.56,High Shipping Cost,Desktop,45
+CART_01055,3055,4,122.38,Just Browsing,Mobile,26
+CART_01056,3057,3,240.18,Other,Mobile,39
+CART_01057,3061,4,140.79,Just Browsing,Desktop,35
+CART_01058,3062,2,39.05,Technical Issue,Desktop,37
+CART_01059,3066,3,66.21,High Shipping Cost,Desktop,15
+CART_01060,3067,2,204.4,Technical Issue,Desktop,17
+CART_01061,3070,3,169.13,Just Browsing,Mobile,6
+CART_01062,3071,2,70.01,Just Browsing,Mobile,23
+CART_01063,3076,3,52.47,Price Too High,Tablet,38
+CART_01064,3078,4,99.19,Technical Issue,Desktop,32
+CART_01065,3084,1,126.06,Price Too High,Mobile,33
+CART_01066,3085,3,65.88,High Shipping Cost,Mobile,41
+CART_01067,3088,1,34.09,High Shipping Cost,Desktop,1
+CART_01068,3091,2,57.21,Price Too High,Mobile,36
+CART_01069,3099,2,200.49,Just Browsing,Desktop,34
+CART_01070,3101,2,117.06,Technical Issue,Desktop,35
+CART_01071,3108,2,49.01,Technical Issue,Desktop,18
+CART_01072,3110,1,96.49,Other,Mobile,37
+CART_01073,3111,2,120.39,Just Browsing,Mobile,25
+CART_01074,3113,3,132.82,Just Browsing,Mobile,43
+CART_01075,3114,4,225.49,Just Browsing,Desktop,43
+CART_01076,3115,1,226.7,Other,Desktop,33
+CART_01077,3117,3,39.6,High Shipping Cost,Mobile,17
+CART_01078,3120,2,136.64,High Shipping Cost,Desktop,14
+CART_01079,3122,3,40.38,Price Too High,Desktop,45
+CART_01080,3125,4,184.29,Just Browsing,Mobile,24
+CART_01081,3128,3,216.07,Just Browsing,Desktop,27
+CART_01082,3129,2,116.15,Just Browsing,Tablet,10
+CART_01083,3132,2,229.83,Other,Mobile,40
+CART_01084,3142,1,132.15,Technical Issue,Tablet,15
+CART_01085,3149,4,161.54,Just Browsing,Mobile,25
+CART_01086,3150,3,84.13,Price Too High,Mobile,26
+CART_01087,3152,3,226.58,Other,Desktop,45
+CART_01088,3158,2,158.72,High Shipping Cost,Desktop,30
+CART_01089,3163,3,80.64,Price Too High,Desktop,40
+CART_01090,3164,4,131.14,Price Too High,Mobile,36
+CART_01091,3165,2,130.43,Technical Issue,Desktop,43
+CART_01092,3169,2,249.26,Just Browsing,Mobile,32
+CART_01093,3170,2,246.58,High Shipping Cost,Mobile,42
+CART_01094,3174,4,60.49,High Shipping Cost,Desktop,31
+CART_01095,3178,2,242.31,Technical Issue,Tablet,30
+CART_01096,3183,1,168.73,High Shipping Cost,Desktop,21
+CART_01097,3192,3,212.87,Technical Issue,Tablet,32
+CART_01098,3195,2,125.31,High Shipping Cost,Desktop,15
+CART_01099,3196,3,42.1,Price Too High,Mobile,14
+CART_01100,3198,1,178.92,Just Browsing,Tablet,2
+CART_01101,3200,3,163.18,Technical Issue,Desktop,1
+CART_01102,3202,4,141.12,High Shipping Cost,Mobile,43
+CART_01103,3203,4,61.85,Just Browsing,Desktop,12
+CART_01104,3207,2,78.63,High Shipping Cost,Tablet,38
+CART_01105,3209,4,54.35,High Shipping Cost,Mobile,2
+CART_01106,3210,3,153.47,Other,Mobile,4
+CART_01107,3214,3,116.64,Price Too High,Mobile,16
+CART_01108,3215,3,74.21,Just Browsing,Desktop,25
+CART_01109,3216,3,184.62,Other,Desktop,3
+CART_01110,3218,3,46.88,Just Browsing,Desktop,45
+CART_01111,3219,4,203.5,Other,Mobile,32
+CART_01112,3221,2,124.95,High Shipping Cost,Mobile,1
+CART_01113,3223,1,189.4,Just Browsing,Desktop,25
+CART_01114,3226,3,43.18,Technical Issue,Tablet,39
+CART_01115,3227,4,103.03,High Shipping Cost,Desktop,21
+CART_01116,3228,3,182.47,Price Too High,Desktop,40
+CART_01117,3247,3,137.56,High Shipping Cost,Mobile,41
+CART_01118,3259,2,159.9,Technical Issue,Desktop,23
+CART_01119,3263,3,60.8,Price Too High,Mobile,22
+CART_01120,3264,4,72.97,Just Browsing,Desktop,39
+CART_01121,3267,3,74.17,High Shipping Cost,Mobile,18
+CART_01122,3268,1,132.13,High Shipping Cost,Mobile,29
+CART_01123,3270,4,115.65,Price Too High,Mobile,16
+CART_01124,3275,2,33.77,High Shipping Cost,Mobile,27
+CART_01125,3277,1,160.23,High Shipping Cost,Mobile,25
+CART_01126,3287,4,72.57,Technical Issue,Desktop,35
+CART_01127,3289,3,61.63,Other,Tablet,10
+CART_01128,3290,4,148.32,Price Too High,Desktop,13
+CART_01129,3293,4,153.78,High Shipping Cost,Desktop,44
+CART_01130,3297,1,187.93,High Shipping Cost,Mobile,24
+CART_01131,3298,2,143.74,Price Too High,Desktop,11
+CART_01132,3302,3,183.09,Other,Tablet,12
+CART_01133,3304,3,76.5,Other,Desktop,35
+CART_01134,3312,1,70.4,High Shipping Cost,Mobile,20
+CART_01135,3316,2,119.04,High Shipping Cost,Mobile,3
+CART_01136,3317,3,226.8,High Shipping Cost,Mobile,20
+CART_01137,3318,3,170.58,Just Browsing,Desktop,41
+CART_01138,3320,3,218.23,Other,Mobile,40
+CART_01139,3326,1,211.53,Just Browsing,Mobile,5
+CART_01140,3327,2,115.77,High Shipping Cost,Mobile,20
+CART_01141,3328,2,242.19,Price Too High,Mobile,38
+CART_01142,3332,3,135.78,Other,Mobile,40
+CART_01143,3335,3,146.37,Technical Issue,Tablet,45
+CART_01144,3337,3,76.57,Technical Issue,Tablet,7
+CART_01145,3339,3,112.23,High Shipping Cost,Mobile,11
+CART_01146,3340,2,114.11,Price Too High,Mobile,12
+CART_01147,3341,3,140.85,Price Too High,Tablet,43
+CART_01148,3342,1,168.62,High Shipping Cost,Mobile,4
+CART_01149,3343,1,248.9,High Shipping Cost,Mobile,44
+CART_01150,3344,4,36.39,Price Too High,Desktop,6
+CART_01151,3345,4,231.14,Other,Mobile,29
+CART_01152,3346,4,243.85,Other,Mobile,2
+CART_01153,3348,1,145.24,Technical Issue,Desktop,25
+CART_01154,3351,4,80.62,Price Too High,Desktop,41
+CART_01155,3353,1,96.28,Other,Tablet,16
+CART_01156,3355,4,74.23,Price Too High,Desktop,45
+CART_01157,3357,3,233.35,High Shipping Cost,Mobile,6
+CART_01158,3362,3,241.4,High Shipping Cost,Desktop,10
+CART_01159,3364,1,106.6,Price Too High,Desktop,31
+CART_01160,3365,2,170.53,Technical Issue,Tablet,35
+CART_01161,3366,2,234.25,Just Browsing,Mobile,2
+CART_01162,3367,2,65.83,Other,Desktop,25
+CART_01163,3369,2,194.82,Price Too High,Desktop,41
+CART_01164,3370,1,224.71,High Shipping Cost,Mobile,18
+CART_01165,3377,2,70.56,Just Browsing,Mobile,39
+CART_01166,3379,3,129.09,Price Too High,Desktop,8
+CART_01167,3387,1,102.57,Other,Desktop,14
+CART_01168,3391,3,172.57,Technical Issue,Desktop,11
+CART_01169,3393,2,190.31,Just Browsing,Tablet,24
+CART_01170,3395,2,203.81,Other,Tablet,42
+CART_01171,3397,3,120.86,Price Too High,Mobile,1
+CART_01172,3399,4,215.96,Price Too High,Desktop,19
+CART_01173,3406,1,207.24,High Shipping Cost,Mobile,36
+CART_01174,3407,4,141.42,Other,Tablet,26
+CART_01175,3410,4,44.12,Price Too High,Desktop,17
+CART_01176,3411,3,188.21,Price Too High,Mobile,32
+CART_01177,3414,4,79.1,Just Browsing,Desktop,35
+CART_01178,3419,2,194.11,High Shipping Cost,Desktop,44
+CART_01179,3420,4,129.06,High Shipping Cost,Desktop,16
+CART_01180,3422,4,56.93,Other,Mobile,10
+CART_01181,3427,2,135.67,Price Too High,Mobile,44
+CART_01182,3437,2,135.64,Technical Issue,Desktop,1
+CART_01183,3442,3,36.82,High Shipping Cost,Mobile,24
+CART_01184,3446,4,38.85,High Shipping Cost,Mobile,22
+CART_01185,3447,4,118.92,High Shipping Cost,Mobile,29
+CART_01186,3451,1,174.42,Just Browsing,Mobile,26
+CART_01187,3452,1,237.32,High Shipping Cost,Mobile,9
+CART_01188,3460,4,157.36,Price Too High,Mobile,36
+CART_01189,3461,3,83.2,Other,Desktop,41
+CART_01190,3462,4,49.96,Other,Desktop,13
+CART_01191,3463,1,200.8,Other,Mobile,31
+CART_01192,3464,2,201.34,Other,Mobile,16
+CART_01193,3465,4,163.05,Technical Issue,Desktop,45
+CART_01194,3469,2,190.75,High Shipping Cost,Mobile,43
+CART_01195,3471,3,155.21,Technical Issue,Desktop,2
+CART_01196,3473,2,64.95,Other,Mobile,18
+CART_01197,3477,1,178.49,High Shipping Cost,Tablet,19
+CART_01198,3485,4,181.73,High Shipping Cost,Mobile,4
+CART_01199,3486,4,187.3,High Shipping Cost,Mobile,2
+CART_01200,3496,4,237.28,Just Browsing,Desktop,12
+CART_01201,3498,3,68.06,Just Browsing,Tablet,42
+CART_01202,3502,3,96.27,High Shipping Cost,Mobile,35
+CART_01203,3503,1,209.89,High Shipping Cost,Tablet,9
+CART_01204,3507,2,76.09,Other,Tablet,23
+CART_01205,3510,1,92.33,Technical Issue,Desktop,36
+CART_01206,3513,4,189.82,Price Too High,Tablet,39
+CART_01207,3516,2,123.91,Just Browsing,Tablet,4
+CART_01208,3518,2,53.98,Price Too High,Desktop,10
+CART_01209,3522,3,192.05,Just Browsing,Mobile,3
+CART_01210,3523,3,248.54,High Shipping Cost,Desktop,28
+CART_01211,3527,2,126.7,High Shipping Cost,Tablet,16
+CART_01212,3529,1,102.99,Other,Tablet,27
+CART_01213,3532,4,45.54,High Shipping Cost,Mobile,32
+CART_01214,3534,2,236.96,High Shipping Cost,Desktop,14
+CART_01215,3541,1,154.89,Other,Desktop,41
+CART_01216,3543,3,156.14,Other,Desktop,42
+CART_01217,3545,4,63.22,Technical Issue,Tablet,10
+CART_01218,3549,1,101.24,Price Too High,Desktop,43
+CART_01219,3552,4,83.01,High Shipping Cost,Desktop,28
+CART_01220,3558,4,47.54,Just Browsing,Mobile,33
+CART_01221,3559,3,41.16,Technical Issue,Desktop,31
+CART_01222,3567,1,197.37,Just Browsing,Mobile,8
+CART_01223,3573,3,73.56,Just Browsing,Mobile,2
+CART_01224,3575,3,156.96,High Shipping Cost,Tablet,29
+CART_01225,3576,4,219.09,Just Browsing,Desktop,15
+CART_01226,3578,1,172.17,Just Browsing,Mobile,3
+CART_01227,3579,2,195.91,High Shipping Cost,Mobile,38
+CART_01228,3581,1,170.76,Just Browsing,Mobile,3
+CART_01229,3591,4,234.18,Other,Tablet,25
+CART_01230,3593,1,225.59,High Shipping Cost,Mobile,7
+CART_01231,3595,3,38.35,Price Too High,Mobile,41
+CART_01232,3598,2,156.15,Other,Mobile,45
+CART_01233,3600,1,202.97,Other,Mobile,1
+CART_01234,3602,3,66.7,Just Browsing,Mobile,34
+CART_01235,3607,1,240.87,Just Browsing,Mobile,4
+CART_01236,3608,4,212.28,Just Browsing,Desktop,28
+CART_01237,3610,2,75.48,Price Too High,Tablet,22
+CART_01238,3612,3,83.5,Technical Issue,Desktop,37
+CART_01239,3616,2,30.62,Price Too High,Desktop,29
+CART_01240,3618,3,61.78,Just Browsing,Mobile,21
+CART_01241,3619,2,83.79,Just Browsing,Mobile,45
+CART_01242,3629,2,186.11,Other,Mobile,9
+CART_01243,3630,1,101.37,Just Browsing,Mobile,26
+CART_01244,3633,1,196.71,Other,Mobile,43
+CART_01245,3636,2,151.47,Price Too High,Mobile,28
+CART_01246,3641,1,137.35,High Shipping Cost,Desktop,35
+CART_01247,3648,3,33.77,Other,Mobile,42
+CART_01248,3649,1,232.65,High Shipping Cost,Mobile,22
+CART_01249,3655,1,196.9,High Shipping Cost,Desktop,24
+CART_01250,3657,1,155.6,High Shipping Cost,Desktop,14
+CART_01251,3661,3,99.65,High Shipping Cost,Mobile,20
+CART_01252,3664,1,168.44,High Shipping Cost,Desktop,33
+CART_01253,3666,2,145.94,High Shipping Cost,Mobile,21
+CART_01254,3668,3,132.57,Other,Desktop,29
+CART_01255,3670,2,153.77,High Shipping Cost,Mobile,41
+CART_01256,3671,4,185.63,High Shipping Cost,Desktop,8
+CART_01257,3672,3,122.61,Other,Desktop,23
+CART_01258,3674,3,235.06,Just Browsing,Desktop,44
+CART_01259,3683,2,104.93,Price Too High,Mobile,42
+CART_01260,3686,1,183.53,Other,Mobile,16
+CART_01261,3688,4,119.89,Technical Issue,Desktop,6
+CART_01262,3689,1,41.37,Other,Desktop,42
+CART_01263,3690,2,90.51,Technical Issue,Desktop,24
+CART_01264,3693,3,227.22,Other,Mobile,10
+CART_01265,3695,2,216.62,High Shipping Cost,Desktop,9
+CART_01266,3697,3,111.32,High Shipping Cost,Tablet,44
+CART_01267,3698,1,177.73,High Shipping Cost,Mobile,43
+CART_01268,3704,1,89.04,Just Browsing,Mobile,44
+CART_01269,3706,3,229.85,Technical Issue,Tablet,32
+CART_01270,3707,3,213.06,Price Too High,Mobile,11
+CART_01271,3709,1,93.36,Technical Issue,Desktop,11
+CART_01272,3710,2,130.43,Other,Tablet,1
+CART_01273,3719,4,119.31,Price Too High,Mobile,29
+CART_01274,3729,3,167.98,Price Too High,Desktop,16
+CART_01275,3731,1,42.38,High Shipping Cost,Desktop,7
+CART_01276,3732,2,88.94,Just Browsing,Tablet,35
+CART_01277,3736,2,210.6,Other,Mobile,14
+CART_01278,3738,3,170.38,Price Too High,Mobile,6
+CART_01279,3739,4,101.62,High Shipping Cost,Mobile,34
+CART_01280,3740,4,193.01,High Shipping Cost,Mobile,28
+CART_01281,3754,1,134.22,High Shipping Cost,Mobile,19
+CART_01282,3760,4,247.95,Price Too High,Mobile,8
+CART_01283,3765,1,74.31,High Shipping Cost,Mobile,16
+CART_01284,3768,4,62.07,Just Browsing,Mobile,41
+CART_01285,3779,1,71.73,High Shipping Cost,Mobile,22
+CART_01286,3781,4,87.96,High Shipping Cost,Desktop,9
+CART_01287,3782,3,147.26,High Shipping Cost,Desktop,26
+CART_01288,3785,1,183.78,High Shipping Cost,Mobile,11
+CART_01289,3788,2,181.45,High Shipping Cost,Mobile,4
+CART_01290,3790,4,176.16,Price Too High,Tablet,24
+CART_01291,3793,3,164.27,High Shipping Cost,Mobile,13
+CART_01292,3794,2,110.96,Price Too High,Mobile,14
+CART_01293,3795,4,244.78,Just Browsing,Desktop,14
+CART_01294,3798,4,106.6,Other,Desktop,28
+CART_01295,3799,2,183.83,Other,Desktop,33
+CART_01296,3802,4,73.48,Price Too High,Tablet,9
+CART_01297,3803,4,77.3,Just Browsing,Mobile,18
+CART_01298,3806,3,72.28,High Shipping Cost,Tablet,37
+CART_01299,3808,1,200.37,Other,Desktop,11
+CART_01300,3811,3,163.46,Price Too High,Mobile,28
+CART_01301,3812,3,34.72,Price Too High,Mobile,37
+CART_01302,3813,4,74.17,Just Browsing,Desktop,3
+CART_01303,3818,1,120.8,High Shipping Cost,Mobile,36
+CART_01304,3821,1,134.35,Other,Desktop,9
+CART_01305,3823,1,207.48,High Shipping Cost,Mobile,6
+CART_01306,3825,2,220.44,High Shipping Cost,Desktop,12
+CART_01307,3826,2,48.86,Other,Desktop,5
+CART_01308,3827,2,164.45,High Shipping Cost,Mobile,30
+CART_01309,3833,4,63.76,Just Browsing,Mobile,39
+CART_01310,3834,4,184.28,Price Too High,Desktop,19
+CART_01311,3838,3,137.68,Technical Issue,Desktop,5
+CART_01312,3843,1,207.22,High Shipping Cost,Mobile,10
+CART_01313,3845,4,53.37,High Shipping Cost,Desktop,12
+CART_01314,3847,2,90.64,Other,Tablet,28
+CART_01315,3848,4,167.66,High Shipping Cost,Mobile,43
+CART_01316,3849,4,194.81,High Shipping Cost,Mobile,45
+CART_01317,3855,2,55.32,Other,Mobile,13
+CART_01318,3856,4,141.76,High Shipping Cost,Desktop,12
+CART_01319,3857,4,146.0,Price Too High,Desktop,8
+CART_01320,3858,1,205.28,High Shipping Cost,Mobile,22
+CART_01321,3860,4,39.04,High Shipping Cost,Mobile,28
+CART_01322,3861,2,60.93,High Shipping Cost,Mobile,3
+CART_01323,3865,1,93.27,Technical Issue,Desktop,12
+CART_01324,3870,3,151.1,Price Too High,Desktop,18
+CART_01325,3872,3,104.03,High Shipping Cost,Desktop,33
+CART_01326,3876,2,43.77,High Shipping Cost,Mobile,45
+CART_01327,3877,3,66.29,Other,Desktop,30
+CART_01328,3885,2,74.09,Just Browsing,Tablet,29
+CART_01329,3886,2,132.6,Technical Issue,Tablet,24
+CART_01330,3888,3,139.88,High Shipping Cost,Mobile,30
+CART_01331,3896,4,95.39,Just Browsing,Mobile,10
+CART_01332,3899,1,107.91,High Shipping Cost,Mobile,23
+CART_01333,3901,1,58.18,Just Browsing,Mobile,11
+CART_01334,3904,2,144.47,Price Too High,Desktop,14
+CART_01335,3905,3,116.6,Just Browsing,Mobile,5
+CART_01336,3906,4,32.83,High Shipping Cost,Mobile,41
+CART_01337,3915,3,40.9,High Shipping Cost,Tablet,15
+CART_01338,3918,4,123.95,Technical Issue,Desktop,8
+CART_01339,3920,2,107.15,High Shipping Cost,Mobile,29
+CART_01340,3924,1,206.5,Other,Desktop,1
+CART_01341,3926,2,51.43,Just Browsing,Desktop,29
+CART_01342,3929,1,116.9,Just Browsing,Mobile,3
+CART_01343,3930,1,242.48,Technical Issue,Desktop,34
+CART_01344,3934,4,206.73,Technical Issue,Desktop,37
+CART_01345,3936,1,95.28,Just Browsing,Mobile,5
+CART_01346,3937,3,183.55,Price Too High,Mobile,24
+CART_01347,3939,4,210.81,Price Too High,Desktop,29
+CART_01348,3944,3,230.3,Price Too High,Desktop,18
+CART_01349,3947,1,237.77,Other,Mobile,25
+CART_01350,3949,4,49.15,High Shipping Cost,Desktop,32
+CART_01351,3953,1,108.03,Just Browsing,Tablet,27
+CART_01352,3955,4,69.42,Just Browsing,Desktop,39
+CART_01353,3959,3,174.3,Price Too High,Desktop,13
+CART_01354,3961,3,41.84,High Shipping Cost,Mobile,28
+CART_01355,3962,4,46.86,Price Too High,Desktop,10
+CART_01356,3969,1,89.2,Price Too High,Mobile,14
+CART_01357,3972,4,212.11,Other,Mobile,44
+CART_01358,3975,1,52.09,Price Too High,Desktop,31
+CART_01359,3981,3,164.89,Just Browsing,Mobile,3
+CART_01360,3982,2,113.69,High Shipping Cost,Mobile,27
+CART_01361,3984,4,99.81,High Shipping Cost,Desktop,40
+CART_01362,3985,1,205.58,High Shipping Cost,Mobile,2
+CART_01363,3987,1,44.45,High Shipping Cost,Desktop,10
+CART_01364,3989,2,172.82,Other,Desktop,3
+CART_01365,3995,3,190.02,High Shipping Cost,Mobile,12
+CART_01366,3998,2,233.01,High Shipping Cost,Desktop,35
+CART_01367,3999,3,118.96,High Shipping Cost,Mobile,41
+CART_01368,4003,3,78.14,High Shipping Cost,Mobile,33
+CART_01369,4004,3,41.63,Other,Desktop,22
+CART_01370,4006,1,78.13,Price Too High,Desktop,5
+CART_01371,4012,3,145.77,Technical Issue,Desktop,30
+CART_01372,4029,2,40.26,High Shipping Cost,Mobile,4
+CART_01373,4030,2,62.31,High Shipping Cost,Desktop,14
+CART_01374,4037,4,47.71,Just Browsing,Tablet,15
+CART_01375,4038,1,161.84,High Shipping Cost,Mobile,20
+CART_01376,4046,4,181.28,Price Too High,Mobile,8
+CART_01377,4047,4,212.19,Just Browsing,Desktop,5
+CART_01378,4052,3,116.68,High Shipping Cost,Mobile,31
+CART_01379,4055,4,183.31,High Shipping Cost,Mobile,27
+CART_01380,4059,4,139.8,Just Browsing,Tablet,36
+CART_01381,4060,1,89.62,Just Browsing,Tablet,42
+CART_01382,4063,4,191.74,Price Too High,Mobile,29
+CART_01383,4065,1,67.13,Price Too High,Tablet,26
+CART_01384,4067,3,144.65,High Shipping Cost,Desktop,7
+CART_01385,4068,4,45.73,Other,Tablet,16
+CART_01386,4078,4,45.05,Price Too High,Desktop,26
+CART_01387,4079,2,218.69,High Shipping Cost,Mobile,37
+CART_01388,4080,4,221.3,Other,Desktop,30
+CART_01389,4082,3,245.67,Price Too High,Desktop,38
+CART_01390,4084,4,77.87,Just Browsing,Mobile,36
+CART_01391,4087,2,119.2,Technical Issue,Desktop,45
+CART_01392,4088,1,218.64,Other,Mobile,31
+CART_01393,4089,4,72.9,Other,Mobile,6
+CART_01394,4092,4,161.35,High Shipping Cost,Desktop,42
+CART_01395,4095,2,90.28,Just Browsing,Desktop,43
+CART_01396,4096,3,141.03,High Shipping Cost,Mobile,11
+CART_01397,4098,2,146.89,Technical Issue,Desktop,34
+CART_01398,4099,2,130.43,Technical Issue,Desktop,9
+CART_01399,4101,1,179.0,High Shipping Cost,Mobile,34
+CART_01400,4103,2,134.38,Price Too High,Mobile,20
+CART_01401,4105,3,98.09,Just Browsing,Desktop,16
+CART_01402,4106,4,247.77,Just Browsing,Mobile,33
+CART_01403,4107,4,140.62,High Shipping Cost,Tablet,17
+CART_01404,4110,4,59.09,High Shipping Cost,Mobile,37
+CART_01405,4111,1,212.49,High Shipping Cost,Mobile,30
+CART_01406,4116,4,98.05,Other,Desktop,36
+CART_01407,4117,4,198.47,Other,Tablet,14
+CART_01408,4122,4,65.38,Just Browsing,Mobile,19
+CART_01409,4124,3,89.67,Technical Issue,Tablet,35
+CART_01410,4128,2,67.55,Technical Issue,Tablet,15
+CART_01411,4129,2,226.81,High Shipping Cost,Desktop,18
+CART_01412,4130,1,170.45,High Shipping Cost,Desktop,5
+CART_01413,4131,3,240.76,Just Browsing,Desktop,27
+CART_01414,4132,2,102.41,Other,Desktop,2
+CART_01415,4133,3,73.13,Just Browsing,Mobile,42
+CART_01416,4135,1,81.68,Just Browsing,Mobile,23
+CART_01417,4139,4,38.24,High Shipping Cost,Mobile,44
+CART_01418,4140,1,73.96,High Shipping Cost,Mobile,41
+CART_01419,4146,2,113.83,High Shipping Cost,Mobile,9
+CART_01420,4150,2,156.55,Price Too High,Mobile,16
+CART_01421,4152,3,232.23,Other,Desktop,45
+CART_01422,4154,3,149.79,Just Browsing,Desktop,10
+CART_01423,4155,1,153.75,High Shipping Cost,Desktop,23
+CART_01424,4156,1,79.36,Price Too High,Desktop,10
+CART_01425,4157,2,209.65,Price Too High,Mobile,33
+CART_01426,4158,1,33.85,Other,Tablet,23
+CART_01427,4160,1,37.01,High Shipping Cost,Mobile,39
+CART_01428,4163,4,116.01,High Shipping Cost,Mobile,30
+CART_01429,4168,3,55.84,Other,Desktop,24
+CART_01430,4171,2,52.24,High Shipping Cost,Desktop,32
+CART_01431,4172,1,55.65,High Shipping Cost,Tablet,30
+CART_01432,4174,4,234.95,High Shipping Cost,Mobile,10
+CART_01433,4178,2,143.03,High Shipping Cost,Mobile,22
+CART_01434,4179,4,120.48,Price Too High,Desktop,33
+CART_01435,4180,4,245.35,Price Too High,Desktop,31
+CART_01436,4186,1,181.91,Just Browsing,Mobile,25
+CART_01437,4190,3,85.62,High Shipping Cost,Mobile,1
+CART_01438,4193,3,246.99,Other,Mobile,20
+CART_01439,4197,4,87.73,Just Browsing,Desktop,31
+CART_01440,4204,4,91.71,Technical Issue,Tablet,19
+CART_01441,4207,1,227.94,High Shipping Cost,Mobile,8
+CART_01442,4212,2,40.19,Other,Mobile,33
+CART_01443,4214,1,185.01,Price Too High,Desktop,10
+CART_01444,4217,1,224.97,Just Browsing,Desktop,16
+CART_01445,4221,4,180.62,Other,Desktop,28
+CART_01446,4226,2,179.77,Price Too High,Mobile,20
+CART_01447,4227,1,141.95,Just Browsing,Desktop,25
+CART_01448,4228,2,60.43,High Shipping Cost,Mobile,38
+CART_01449,4230,2,95.83,High Shipping Cost,Desktop,24
+CART_01450,4240,3,192.07,High Shipping Cost,Desktop,27
+CART_01451,4244,2,95.08,Just Browsing,Mobile,11
+CART_01452,4246,2,116.4,Other,Tablet,25
+CART_01453,4248,2,53.23,Technical Issue,Desktop,29
+CART_01454,4249,3,36.16,Other,Mobile,13
+CART_01455,4251,3,92.77,Technical Issue,Desktop,5
+CART_01456,4255,4,182.3,Other,Desktop,17
+CART_01457,4257,2,157.73,Just Browsing,Tablet,10
+CART_01458,4258,1,242.19,Other,Mobile,36
+CART_01459,4263,1,210.31,Price Too High,Mobile,12
+CART_01460,4264,3,107.83,Other,Desktop,43
+CART_01461,4266,1,108.41,High Shipping Cost,Mobile,34
+CART_01462,4278,1,130.18,Technical Issue,Desktop,6
+CART_01463,4279,1,182.75,Price Too High,Desktop,13
+CART_01464,4285,2,157.76,Other,Mobile,5
+CART_01465,4291,4,39.02,High Shipping Cost,Mobile,18
+CART_01466,4296,3,233.71,High Shipping Cost,Desktop,38
+CART_01467,4298,3,41.69,Just Browsing,Desktop,38
+CART_01468,4301,1,145.1,Other,Desktop,18
+CART_01469,4302,4,183.08,Other,Tablet,27
+CART_01470,4303,3,76.59,Just Browsing,Mobile,30
+CART_01471,4308,3,244.24,High Shipping Cost,Mobile,31
+CART_01472,4310,2,80.46,Just Browsing,Mobile,20
+CART_01473,4312,3,45.6,Just Browsing,Tablet,41
+CART_01474,4314,2,248.08,Other,Tablet,24
+CART_01475,4319,3,235.3,High Shipping Cost,Mobile,26
+CART_01476,4320,1,204.37,Just Browsing,Mobile,11
+CART_01477,4321,3,171.57,Other,Mobile,16
+CART_01478,4328,2,236.9,High Shipping Cost,Tablet,10
+CART_01479,4330,3,144.07,High Shipping Cost,Mobile,11
+CART_01480,4331,4,97.8,Other,Desktop,15
+CART_01481,4333,3,71.78,Other,Mobile,23
+CART_01482,4335,4,216.52,Other,Desktop,9
+CART_01483,4336,2,168.62,High Shipping Cost,Desktop,35
+CART_01484,4337,1,226.18,Just Browsing,Mobile,36
+CART_01485,4339,4,55.75,High Shipping Cost,Desktop,29
+CART_01486,4340,1,154.08,Other,Desktop,35
+CART_01487,4343,3,156.88,Price Too High,Mobile,23
+CART_01488,4345,1,245.25,Just Browsing,Mobile,14
+CART_01489,4350,2,94.9,High Shipping Cost,Mobile,11
+CART_01490,4354,1,226.63,Price Too High,Tablet,13
+CART_01491,4360,4,55.82,Other,Desktop,21
+CART_01492,4361,4,101.86,Price Too High,Desktop,30
+CART_01493,4367,3,234.13,Just Browsing,Desktop,26
+CART_01494,4368,1,171.87,High Shipping Cost,Mobile,41
+CART_01495,4370,1,155.55,Technical Issue,Desktop,19
+CART_01496,4371,3,144.06,Just Browsing,Desktop,24
+CART_01497,4374,1,199.59,Just Browsing,Desktop,34
+CART_01498,4376,4,190.48,Just Browsing,Mobile,41
+CART_01499,4378,3,93.18,High Shipping Cost,Mobile,5
+CART_01500,4379,3,187.08,Just Browsing,Desktop,32
+CART_01501,4385,3,76.44,Other,Tablet,2
+CART_01502,4388,1,132.18,Price Too High,Desktop,13
+CART_01503,4390,2,102.15,Price Too High,Desktop,12
+CART_01504,4391,3,242.95,Price Too High,Desktop,40
+CART_01505,4393,3,175.37,High Shipping Cost,Mobile,39
+CART_01506,4395,4,170.17,Technical Issue,Tablet,8
+CART_01507,4397,4,31.71,Just Browsing,Desktop,14
+CART_01508,4398,2,193.3,Price Too High,Desktop,42
+CART_01509,4402,3,114.91,High Shipping Cost,Mobile,18
+CART_01510,4408,4,134.29,Technical Issue,Desktop,5
+CART_01511,4409,4,187.89,Technical Issue,Desktop,27
+CART_01512,4410,1,83.49,High Shipping Cost,Mobile,5
+CART_01513,4411,2,55.39,Technical Issue,Desktop,7
+CART_01514,4413,2,181.27,Price Too High,Mobile,18
+CART_01515,4415,1,121.31,High Shipping Cost,Mobile,44
+CART_01516,4417,4,44.75,Other,Mobile,29
+CART_01517,4422,1,30.56,Technical Issue,Tablet,1
+CART_01518,4423,1,184.19,Just Browsing,Mobile,13
+CART_01519,4424,2,125.27,Other,Mobile,26
+CART_01520,4429,4,117.09,Technical Issue,Desktop,9
+CART_01521,4430,1,141.68,Price Too High,Mobile,40
+CART_01522,4432,3,150.86,Just Browsing,Mobile,33
+CART_01523,4434,4,222.25,Just Browsing,Tablet,3
+CART_01524,4435,3,168.36,Just Browsing,Desktop,36
+CART_01525,4436,3,75.83,Price Too High,Desktop,32
+CART_01526,4443,4,240.69,Technical Issue,Desktop,19
+CART_01527,4445,4,98.11,High Shipping Cost,Mobile,17
+CART_01528,4446,1,234.2,Technical Issue,Tablet,39
+CART_01529,4468,1,60.7,Just Browsing,Desktop,8
+CART_01530,4470,3,206.91,Just Browsing,Tablet,33
+CART_01531,4471,4,243.34,Other,Tablet,2
+CART_01532,4472,2,61.15,Price Too High,Tablet,3
+CART_01533,4475,1,185.88,Other,Mobile,27
+CART_01534,4476,1,41.37,Other,Mobile,38
+CART_01535,4477,4,101.65,Other,Mobile,31
+CART_01536,4478,2,194.05,Just Browsing,Desktop,42
+CART_01537,4482,3,39.38,Just Browsing,Mobile,45
+CART_01538,4484,1,200.55,Price Too High,Mobile,30
+CART_01539,4485,2,95.01,Price Too High,Desktop,28
+CART_01540,4486,2,209.74,Other,Mobile,39
+CART_01541,4489,1,63.21,Just Browsing,Mobile,1
+CART_01542,4490,2,159.94,Just Browsing,Mobile,26
+CART_01543,4491,2,116.13,Price Too High,Desktop,11
+CART_01544,4497,3,150.16,Just Browsing,Mobile,8
+CART_01545,4503,3,130.96,Just Browsing,Desktop,5
+CART_01546,4505,3,31.48,Just Browsing,Mobile,7
+CART_01547,4506,1,50.28,Just Browsing,Desktop,16
+CART_01548,4509,1,147.59,Just Browsing,Mobile,12
+CART_01549,4510,3,71.31,Price Too High,Tablet,36
+CART_01550,4515,1,118.82,Other,Mobile,31
+CART_01551,4517,2,95.72,High Shipping Cost,Mobile,15
+CART_01552,4520,1,117.11,Other,Desktop,21
+CART_01553,4521,2,66.47,Price Too High,Tablet,7
+CART_01554,4522,1,68.29,High Shipping Cost,Mobile,21
+CART_01555,4523,2,151.14,High Shipping Cost,Tablet,15
+CART_01556,4525,1,184.79,Price Too High,Mobile,40
+CART_01557,4529,1,76.11,High Shipping Cost,Mobile,11
+CART_01558,4532,3,168.82,Just Browsing,Desktop,30
+CART_01559,4534,2,51.28,Other,Desktop,26
+CART_01560,4535,2,224.01,High Shipping Cost,Mobile,6
+CART_01561,4538,1,237.58,Other,Mobile,6
+CART_01562,4539,4,200.84,Price Too High,Desktop,44
+CART_01563,4541,3,229.21,Other,Desktop,5
+CART_01564,4542,2,81.65,Just Browsing,Mobile,33
+CART_01565,4549,2,189.44,Other,Mobile,1
+CART_01566,4550,1,58.55,High Shipping Cost,Mobile,17
+CART_01567,4552,4,203.1,Just Browsing,Desktop,6
+CART_01568,4554,4,163.47,Technical Issue,Tablet,8
+CART_01569,4560,1,62.82,Price Too High,Tablet,35
+CART_01570,4577,1,163.42,Just Browsing,Mobile,38
+CART_01571,4579,2,136.23,Just Browsing,Tablet,38
+CART_01572,4581,3,108.2,Technical Issue,Tablet,39
+CART_01573,4583,3,106.15,High Shipping Cost,Mobile,42
+CART_01574,4585,2,195.46,Price Too High,Mobile,38
+CART_01575,4587,2,213.71,Price Too High,Desktop,3
+CART_01576,4593,4,120.65,Just Browsing,Mobile,15
+CART_01577,4594,1,203.26,High Shipping Cost,Desktop,11
+CART_01578,4595,3,57.11,High Shipping Cost,Mobile,18
+CART_01579,4596,3,58.94,Just Browsing,Mobile,32
+CART_01580,4604,3,127.6,Other,Desktop,2
+CART_01581,4605,2,129.21,High Shipping Cost,Mobile,14
+CART_01582,4608,4,147.45,Other,Desktop,27
+CART_01583,4614,3,213.96,Price Too High,Desktop,26
+CART_01584,4620,3,193.89,Technical Issue,Tablet,24
+CART_01585,4632,1,223.52,High Shipping Cost,Desktop,40
+CART_01586,4633,1,48.89,Price Too High,Mobile,41
+CART_01587,4634,3,237.32,High Shipping Cost,Tablet,43
+CART_01588,4635,1,249.14,Other,Desktop,11
+CART_01589,4638,2,237.05,Price Too High,Mobile,31
+CART_01590,4639,1,65.29,Just Browsing,Mobile,45
+CART_01591,4640,2,225.37,Other,Mobile,11
+CART_01592,4641,3,235.52,Just Browsing,Tablet,15
+CART_01593,4644,2,182.75,Just Browsing,Desktop,3
+CART_01594,4650,4,231.05,Other,Desktop,4
+CART_01595,4651,2,114.95,High Shipping Cost,Desktop,9
+CART_01596,4654,2,74.16,High Shipping Cost,Mobile,9
+CART_01597,4664,4,85.55,High Shipping Cost,Mobile,15
+CART_01598,4665,2,211.86,Price Too High,Mobile,9
+CART_01599,4670,2,136.32,High Shipping Cost,Mobile,2
+CART_01600,4671,4,61.58,Technical Issue,Desktop,18
+CART_01601,4676,4,169.34,Just Browsing,Tablet,17
+CART_01602,4680,2,126.47,High Shipping Cost,Mobile,13
+CART_01603,4684,4,64.61,Price Too High,Desktop,40
+CART_01604,4685,4,105.61,High Shipping Cost,Mobile,10
+CART_01605,4689,4,135.59,High Shipping Cost,Mobile,34
+CART_01606,4693,4,56.72,Other,Desktop,15
+CART_01607,4698,3,84.91,Price Too High,Mobile,38
+CART_01608,4704,3,131.87,High Shipping Cost,Mobile,31
+CART_01609,4706,2,57.52,High Shipping Cost,Mobile,35
+CART_01610,4708,1,89.05,Price Too High,Desktop,19
+CART_01611,4709,3,125.23,Price Too High,Mobile,37
+CART_01612,4711,2,241.77,Just Browsing,Mobile,25
+CART_01613,4716,2,229.38,Technical Issue,Desktop,4
+CART_01614,4717,3,246.56,Other,Mobile,26
+CART_01615,4721,2,185.5,High Shipping Cost,Desktop,2
+CART_01616,4723,3,135.43,Technical Issue,Desktop,37
+CART_01617,4725,2,123.3,High Shipping Cost,Desktop,44
+CART_01618,4728,4,43.66,High Shipping Cost,Mobile,41
+CART_01619,4732,4,81.63,Just Browsing,Desktop,23
+CART_01620,4736,1,30.4,Just Browsing,Desktop,17
+CART_01621,4737,3,181.01,Price Too High,Mobile,11
+CART_01622,4739,4,143.85,Other,Desktop,36
+CART_01623,4742,4,240.19,High Shipping Cost,Desktop,15
+CART_01624,4747,3,142.24,Price Too High,Desktop,32
+CART_01625,4751,4,152.06,High Shipping Cost,Desktop,9
+CART_01626,4752,2,80.3,High Shipping Cost,Mobile,23
+CART_01627,4753,4,125.36,High Shipping Cost,Mobile,8
+CART_01628,4758,3,157.17,Other,Mobile,15
+CART_01629,4760,1,72.56,Price Too High,Tablet,24
+CART_01630,4762,1,153.7,Technical Issue,Tablet,7
+CART_01631,4763,4,99.54,Price Too High,Mobile,45
+CART_01632,4766,3,76.0,Just Browsing,Tablet,31
+CART_01633,4775,4,229.72,Price Too High,Desktop,40
+CART_01634,4776,3,195.01,Other,Mobile,21
+CART_01635,4777,2,35.85,Price Too High,Desktop,24
+CART_01636,4778,4,121.68,Just Browsing,Desktop,44
+CART_01637,4780,1,211.15,Just Browsing,Desktop,24
+CART_01638,4782,2,86.75,Technical Issue,Desktop,18
+CART_01639,4785,2,152.65,High Shipping Cost,Mobile,33
+CART_01640,4786,3,155.2,Just Browsing,Desktop,31
+CART_01641,4787,3,96.83,Other,Tablet,23
+CART_01642,4789,1,236.15,Just Browsing,Mobile,7
+CART_01643,4790,4,172.07,Price Too High,Desktop,2
+CART_01644,4791,1,228.1,Price Too High,Desktop,3
+CART_01645,4792,4,209.55,Technical Issue,Tablet,39
+CART_01646,4793,3,185.89,Just Browsing,Desktop,39
+CART_01647,4795,2,72.5,Just Browsing,Desktop,36
+CART_01648,4796,1,102.48,Just Browsing,Desktop,39
+CART_01649,4801,3,236.39,High Shipping Cost,Desktop,35
+CART_01650,4802,1,202.35,Price Too High,Desktop,33
+CART_01651,4803,3,204.56,Other,Tablet,40
+CART_01652,4804,2,249.57,Price Too High,Desktop,17
+CART_01653,4806,3,229.03,Price Too High,Mobile,32
+CART_01654,4807,4,154.55,Other,Desktop,34
+CART_01655,4815,4,142.24,High Shipping Cost,Mobile,28
+CART_01656,4817,3,101.19,Just Browsing,Tablet,34
+CART_01657,4818,1,180.55,High Shipping Cost,Mobile,3
+CART_01658,4820,1,180.82,Other,Desktop,29
+CART_01659,4821,3,136.26,High Shipping Cost,Desktop,29
+CART_01660,4832,2,199.67,High Shipping Cost,Mobile,40
+CART_01661,4836,3,88.44,Just Browsing,Desktop,41
+CART_01662,4844,2,100.57,Other,Desktop,15
+CART_01663,4848,2,62.77,Technical Issue,Desktop,28
+CART_01664,4851,4,101.35,Technical Issue,Tablet,28
+CART_01665,4857,4,174.17,Just Browsing,Desktop,40
+CART_01666,4858,2,186.01,Just Browsing,Tablet,42
+CART_01667,4861,3,87.88,Just Browsing,Mobile,3
+CART_01668,4865,1,187.45,Price Too High,Desktop,35
+CART_01669,4866,3,141.51,Just Browsing,Mobile,26
+CART_01670,4872,2,154.76,Just Browsing,Desktop,13
+CART_01671,4878,4,138.6,Other,Mobile,20
+CART_01672,4879,3,178.16,Just Browsing,Desktop,41
+CART_01673,4888,3,112.79,High Shipping Cost,Mobile,29
+CART_01674,4891,4,174.16,High Shipping Cost,Desktop,5
+CART_01675,4893,3,101.1,Price Too High,Mobile,31
+CART_01676,4895,3,61.21,Just Browsing,Desktop,39
+CART_01677,4899,1,79.46,High Shipping Cost,Desktop,19
+CART_01678,4905,4,159.03,Just Browsing,Tablet,25
+CART_01679,4909,3,155.0,Just Browsing,Mobile,17
+CART_01680,4913,1,31.05,Just Browsing,Mobile,2
+CART_01681,4916,4,129.46,High Shipping Cost,Tablet,45
+CART_01682,4918,4,208.78,Technical Issue,Desktop,9
+CART_01683,4924,1,81.39,High Shipping Cost,Tablet,37
+CART_01684,4929,3,248.99,Other,Mobile,5
+CART_01685,4932,3,58.11,High Shipping Cost,Desktop,37
+CART_01686,4933,4,94.35,Just Browsing,Tablet,4
+CART_01687,4944,3,51.03,Other,Desktop,35
+CART_01688,4949,4,63.99,Price Too High,Mobile,2
+CART_01689,4950,1,103.28,High Shipping Cost,Mobile,43
+CART_01690,4954,4,109.49,Just Browsing,Mobile,36
+CART_01691,4956,4,201.91,Price Too High,Mobile,42
+CART_01692,4957,4,140.03,Technical Issue,Desktop,6
+CART_01693,4971,2,210.89,Other,Mobile,10
+CART_01694,4974,4,71.82,Other,Mobile,30
+CART_01695,4984,1,221.97,High Shipping Cost,Mobile,41
+CART_01696,4988,2,171.43,High Shipping Cost,Mobile,36
+CART_01697,4989,2,142.01,Other,Mobile,45
+CART_01698,4991,1,119.49,Price Too High,Tablet,40
+CART_01699,4994,4,239.08,High Shipping Cost,Mobile,40
+CART_01700,4997,1,141.13,Technical Issue,Desktop,15

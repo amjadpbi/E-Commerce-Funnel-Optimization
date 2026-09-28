@@ -1,0 +1,161 @@
+table Calendar
+	lineageTag: c32e2cfd-beb6-4bf3-95f0-eba75e137e6a
+
+	column Date
+		formatString: General Date
+		lineageTag: e2062772-d14d-43c5-b52f-b335d66255c2
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Date]
+
+		variation Variation
+			isDefault
+			relationship: ebc4bcfa-79ec-4d0f-a773-4f3c76c1e2bf
+			defaultHierarchy: LocalDateTable_df006813-e00b-4ef3-9d2c-f9354f50954d.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+	column Year
+		formatString: 0
+		lineageTag: 0d77f034-7fe7-499a-b715-75fe901247ce
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Year]
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Month Number'
+		formatString: 0
+		lineageTag: 3ae99d39-920c-40ee-9136-8e1205f8e635
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Month Number]
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Month Name'
+		lineageTag: 0e83328d-4ca0-4bc3-9352-a47d56fd5a0d
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Month Name]
+		sortByColumn: 'Month Number'
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Month Short'
+		lineageTag: d0d62347-b231-483e-aefa-7b8466659b26
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Month Short]
+
+		annotation SummarizationSetBy = Automatic
+
+	column Quarter
+		lineageTag: 328bbd37-4df3-47e1-93dd-2558e61d5324
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Quarter]
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Quarter Number'
+		formatString: 0
+		lineageTag: 61051373-679f-4df1-b73e-bdd8b53cbcc1
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Quarter Number]
+
+		annotation SummarizationSetBy = Automatic
+
+	column Day
+		formatString: 0
+		lineageTag: 5516364e-9f5b-4dc4-bdcf-31f4c25aea5a
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Day]
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Day Name'
+		lineageTag: f3efc970-21df-4077-a02c-5efbfab94903
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Day Name]
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Day Short'
+		lineageTag: 281f273f-2572-42bc-ab8f-34e954c03a44
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Day Short]
+		sortByColumn: 'Day of Week'
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Day of Week'
+		formatString: 0
+		lineageTag: 17794307-530c-497f-90c2-d837e86cc69b
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Day of Week]
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Week Number'
+		formatString: 0
+		lineageTag: 46b1f0dd-2124-49c2-b19c-63ab45c35d26
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Week Number]
+
+		annotation SummarizationSetBy = Automatic
+
+	column Year-Month
+		lineageTag: 4b686ee8-19bf-48ff-bcea-49ab031dd057
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Year-Month]
+
+		annotation SummarizationSetBy = Automatic
+
+	column Month-Year
+		lineageTag: 6a88ab9b-eada-4f2b-b3b5-ab4edd0733e6
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Month-Year]
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Is Weekend'
+		lineageTag: b22edbac-648c-4dc3-9f63-a63e635b7f69
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Is Weekend]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Calendar = calculated
+		mode: import
+		source =
+				
+				ADDCOLUMNS(
+				    CALENDAR(DATE(2024, 1, 1), DATE(2024, 12, 31)),
+				    "Year", YEAR([Date]),
+				    "Month Number", MONTH([Date]),
+				    "Month Name", FORMAT([Date], "MMMM"),
+				    "Month Short", FORMAT([Date], "MMM"),
+				    "Quarter", "Q" & FORMAT([Date], "Q"),
+				    "Quarter Number", QUARTER([Date]),
+				    "Day", DAY([Date]),
+				    "Day Name", FORMAT([Date], "DDDD"),
+				    "Day Short", FORMAT([Date], "DDD"),
+				    "Day of Week", WEEKDAY([Date]),
+				    "Week Number", WEEKNUM([Date]),
+				    "Year-Month", FORMAT([Date], "YYYY-MM"),
+				    "Month-Year", FORMAT([Date], "MMM YYYY"),
+				    "Is Weekend", IF(WEEKDAY([Date]) IN {1, 7}, "Yes", "No")
+				)
+
+	annotation PBI_Id = c26938550db141549bd922371ad5e67a
+

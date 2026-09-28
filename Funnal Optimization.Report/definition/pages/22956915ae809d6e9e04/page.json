@@ -1,0 +1,8 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.0.0/schema.json",
+  "name": "22956915ae809d6e9e04",
+  "displayName": "Funnel Analysis",
+  "displayOption": "ActualSize",
+  "height": 900,
+  "width": 1050
+}

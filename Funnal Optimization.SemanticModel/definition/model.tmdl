@@ -1,0 +1,27 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-PK
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["cart_abandonment","funnel_events","transactions","sessions","_Measures"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table cart_abandonment
+ref table funnel_events
+ref table DateTableTemplate_ee251b93-141f-4e73-8b75-bf809f7bc405
+ref table LocalDateTable_2b277e73-8e25-4ce5-bcc2-164a7fd58df4
+ref table transactions
+ref table LocalDateTable_895f5800-2ffe-493f-b863-0f169cfd9de3
+ref table sessions
+ref table Calendar
+ref table _Measures
+ref table LocalDateTable_df006813-e00b-4ef3-9d2c-f9354f50954d
+
+ref cultureInfo en-US
+

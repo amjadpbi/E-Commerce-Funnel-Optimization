@@ -1,0 +1,71 @@
+table funnel_events
+	lineageTag: 9da5aca2-7ec1-4e14-953e-3fe86d8999e7
+
+	column event_id
+		dataType: int64
+		formatString: 0
+		lineageTag: 25aeea57-2bf7-4e65-8a27-a01e0c0454c4
+		summarizeBy: sum
+		sourceColumn: event_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column session_id
+		dataType: int64
+		formatString: 0
+		lineageTag: bc984305-ddb8-46b7-9ab9-3e41dfe66a01
+		summarizeBy: none
+		sourceColumn: session_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column event_type
+		dataType: string
+		lineageTag: 6a5de108-1325-48d6-973f-a8568fcb7691
+		summarizeBy: none
+		sourceColumn: event_type
+
+		annotation SummarizationSetBy = Automatic
+
+	column product_id
+		dataType: string
+		lineageTag: 4d0230ba-9e7c-4412-b380-1166cbd94b05
+		summarizeBy: none
+		sourceColumn: product_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column category
+		dataType: string
+		lineageTag: b2cbe888-27f2-4495-bb80-475db9dd841a
+		summarizeBy: none
+		sourceColumn: category
+
+		annotation SummarizationSetBy = Automatic
+
+	column timestamp
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: b2000451-7fcb-439a-a096-bc7de1369767
+		summarizeBy: none
+		sourceColumn: timestamp
+
+		variation Variation
+			isDefault
+			relationship: 797c5997-36ac-414b-bc23-71b5ffbdf0a1
+			defaultHierarchy: LocalDateTable_2b277e73-8e25-4ce5-bcc2-164a7fd58df4.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+	partition funnel_events = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\hp\Downloads\funnel_events.csv"),[Delimiter=",", Columns=6, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"event_id", Int64.Type}, {"session_id", Int64.Type}, {"event_type", type text}, {"product_id", type text}, {"category", type text}, {"timestamp", type datetime}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+
