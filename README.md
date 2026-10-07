@@ -1,4 +1,4 @@
-# E-Commerce Funnel Optimization
+# E-Commerce Funnel — Conversion & Cart Abandonment
 
 A funnel-analysis portfolio project built around session, event, transaction, and abandonment data.
 
